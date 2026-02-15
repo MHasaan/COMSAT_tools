@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Data files (large PDFs and generated outputs)
+Data/Input/*.pdf
+Data/Output/*.xlsx
