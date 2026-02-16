@@ -70,7 +70,7 @@ DEFAULT_PDF = os.path.join(
 )
 
 DEFAULT_OUTPUT = os.path.join(
-    os.path.dirname(__file__), "..", "Data", "Output", "room_timetables.xlsx"
+    os.path.dirname(__file__), "..", "Data", "Output", "MHasaan_room_timetables.xlsx"
 )
 
 # ---------------------------------------------------------------------------
