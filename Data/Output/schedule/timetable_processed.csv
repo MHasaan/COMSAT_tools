@@ -924,21 +924,21 @@ B-5,Fr,11:40,false
 B-5,Sa,11:40,true
 B-5,Su,11:40,false
 B-5,Mo,12:00,true
-B-5,Tu,12:00,false
+B-5,Tu,12:00,true
 B-5,We,12:00,true
 B-5,Th,12:00,true
 B-5,Fr,12:00,true
 B-5,Sa,12:00,true
 B-5,Su,12:00,false
 B-5,Mo,12:20,true
-B-5,Tu,12:20,false
+B-5,Tu,12:20,true
 B-5,We,12:20,true
 B-5,Th,12:20,true
 B-5,Fr,12:20,true
 B-5,Sa,12:20,true
 B-5,Su,12:20,false
 B-5,Mo,12:40,true
-B-5,Tu,12:40,false
+B-5,Tu,12:40,true
 B-5,We,12:40,true
 B-5,Th,12:40,true
 B-5,Fr,12:40,true
@@ -1806,42 +1806,42 @@ Chemistry / Physical Chemistry Lab,Fr,13:40,false
 Chemistry / Physical Chemistry Lab,Sa,13:40,false
 Chemistry / Physical Chemistry Lab,Su,13:40,false
 Chemistry / Physical Chemistry Lab,Mo,14:00,false
-Chemistry / Physical Chemistry Lab,Tu,14:00,false
+Chemistry / Physical Chemistry Lab,Tu,14:00,true
 Chemistry / Physical Chemistry Lab,We,14:00,false
 Chemistry / Physical Chemistry Lab,Th,14:00,false
 Chemistry / Physical Chemistry Lab,Fr,14:00,false
 Chemistry / Physical Chemistry Lab,Sa,14:00,false
 Chemistry / Physical Chemistry Lab,Su,14:00,false
 Chemistry / Physical Chemistry Lab,Mo,14:20,false
-Chemistry / Physical Chemistry Lab,Tu,14:20,false
+Chemistry / Physical Chemistry Lab,Tu,14:20,true
 Chemistry / Physical Chemistry Lab,We,14:20,false
 Chemistry / Physical Chemistry Lab,Th,14:20,false
 Chemistry / Physical Chemistry Lab,Fr,14:20,false
 Chemistry / Physical Chemistry Lab,Sa,14:20,false
 Chemistry / Physical Chemistry Lab,Su,14:20,false
 Chemistry / Physical Chemistry Lab,Mo,14:40,false
-Chemistry / Physical Chemistry Lab,Tu,14:40,false
+Chemistry / Physical Chemistry Lab,Tu,14:40,true
 Chemistry / Physical Chemistry Lab,We,14:40,false
 Chemistry / Physical Chemistry Lab,Th,14:40,false
 Chemistry / Physical Chemistry Lab,Fr,14:40,false
 Chemistry / Physical Chemistry Lab,Sa,14:40,false
 Chemistry / Physical Chemistry Lab,Su,14:40,false
 Chemistry / Physical Chemistry Lab,Mo,15:00,false
-Chemistry / Physical Chemistry Lab,Tu,15:00,false
+Chemistry / Physical Chemistry Lab,Tu,15:00,true
 Chemistry / Physical Chemistry Lab,We,15:00,false
 Chemistry / Physical Chemistry Lab,Th,15:00,false
 Chemistry / Physical Chemistry Lab,Fr,15:00,false
 Chemistry / Physical Chemistry Lab,Sa,15:00,false
 Chemistry / Physical Chemistry Lab,Su,15:00,false
 Chemistry / Physical Chemistry Lab,Mo,15:20,false
-Chemistry / Physical Chemistry Lab,Tu,15:20,false
+Chemistry / Physical Chemistry Lab,Tu,15:20,true
 Chemistry / Physical Chemistry Lab,We,15:20,false
 Chemistry / Physical Chemistry Lab,Th,15:20,false
 Chemistry / Physical Chemistry Lab,Fr,15:20,false
 Chemistry / Physical Chemistry Lab,Sa,15:20,false
 Chemistry / Physical Chemistry Lab,Su,15:20,false
 Chemistry / Physical Chemistry Lab,Mo,15:40,false
-Chemistry / Physical Chemistry Lab,Tu,15:40,false
+Chemistry / Physical Chemistry Lab,Tu,15:40,true
 Chemistry / Physical Chemistry Lab,We,15:40,false
 Chemistry / Physical Chemistry Lab,Th,15:40,false
 Chemistry / Physical Chemistry Lab,Fr,15:40,false
@@ -2815,42 +2815,42 @@ CS Lab-G (C-1),Sa,13:40,true
 CS Lab-G (C-1),Su,13:40,false
 CS Lab-G (C-1),Mo,14:00,false
 CS Lab-G (C-1),Tu,14:00,false
-CS Lab-G (C-1),We,14:00,false
+CS Lab-G (C-1),We,14:00,true
 CS Lab-G (C-1),Th,14:00,true
 CS Lab-G (C-1),Fr,14:00,false
 CS Lab-G (C-1),Sa,14:00,false
 CS Lab-G (C-1),Su,14:00,false
 CS Lab-G (C-1),Mo,14:20,false
 CS Lab-G (C-1),Tu,14:20,false
-CS Lab-G (C-1),We,14:20,false
+CS Lab-G (C-1),We,14:20,true
 CS Lab-G (C-1),Th,14:20,true
 CS Lab-G (C-1),Fr,14:20,false
 CS Lab-G (C-1),Sa,14:20,false
 CS Lab-G (C-1),Su,14:20,false
 CS Lab-G (C-1),Mo,14:40,false
 CS Lab-G (C-1),Tu,14:40,false
-CS Lab-G (C-1),We,14:40,false
+CS Lab-G (C-1),We,14:40,true
 CS Lab-G (C-1),Th,14:40,true
 CS Lab-G (C-1),Fr,14:40,false
 CS Lab-G (C-1),Sa,14:40,false
 CS Lab-G (C-1),Su,14:40,false
 CS Lab-G (C-1),Mo,15:00,false
 CS Lab-G (C-1),Tu,15:00,false
-CS Lab-G (C-1),We,15:00,false
+CS Lab-G (C-1),We,15:00,true
 CS Lab-G (C-1),Th,15:00,true
 CS Lab-G (C-1),Fr,15:00,false
 CS Lab-G (C-1),Sa,15:00,false
 CS Lab-G (C-1),Su,15:00,false
 CS Lab-G (C-1),Mo,15:20,false
 CS Lab-G (C-1),Tu,15:20,false
-CS Lab-G (C-1),We,15:20,false
+CS Lab-G (C-1),We,15:20,true
 CS Lab-G (C-1),Th,15:20,true
 CS Lab-G (C-1),Fr,15:20,false
 CS Lab-G (C-1),Sa,15:20,false
 CS Lab-G (C-1),Su,15:20,false
 CS Lab-G (C-1),Mo,15:40,false
 CS Lab-G (C-1),Tu,15:40,false
-CS Lab-G (C-1),We,15:40,false
+CS Lab-G (C-1),We,15:40,true
 CS Lab-G (C-1),Th,15:40,true
 CS Lab-G (C-1),Fr,15:40,false
 CS Lab-G (C-1),Sa,15:40,false
@@ -3297,66 +3297,66 @@ D-2,Fr,12:40,true
 D-2,Sa,12:40,true
 D-2,Su,12:40,false
 D-2,Mo,13:00,false
-D-2,Tu,13:00,false
-D-2,We,13:00,false
+D-2,Tu,13:00,true
+D-2,We,13:00,true
 D-2,Th,13:00,true
 D-2,Fr,13:00,false
 D-2,Sa,13:00,true
 D-2,Su,13:00,false
 D-2,Mo,13:20,false
-D-2,Tu,13:20,false
-D-2,We,13:20,false
+D-2,Tu,13:20,true
+D-2,We,13:20,true
 D-2,Th,13:20,true
 D-2,Fr,13:20,false
 D-2,Sa,13:20,false
 D-2,Su,13:20,false
 D-2,Mo,13:40,false
-D-2,Tu,13:40,false
-D-2,We,13:40,false
+D-2,Tu,13:40,true
+D-2,We,13:40,true
 D-2,Th,13:40,true
 D-2,Fr,13:40,false
 D-2,Sa,13:40,false
 D-2,Su,13:40,false
 D-2,Mo,14:00,true
 D-2,Tu,14:00,true
-D-2,We,14:00,false
+D-2,We,14:00,true
 D-2,Th,14:00,true
-D-2,Fr,14:00,false
+D-2,Fr,14:00,true
 D-2,Sa,14:00,false
 D-2,Su,14:00,false
 D-2,Mo,14:20,true
 D-2,Tu,14:20,true
-D-2,We,14:20,false
+D-2,We,14:20,true
 D-2,Th,14:20,true
-D-2,Fr,14:20,false
+D-2,Fr,14:20,true
 D-2,Sa,14:20,false
 D-2,Su,14:20,false
 D-2,Mo,14:40,true
 D-2,Tu,14:40,true
-D-2,We,14:40,false
+D-2,We,14:40,true
 D-2,Th,14:40,true
-D-2,Fr,14:40,false
+D-2,Fr,14:40,true
 D-2,Sa,14:40,false
 D-2,Su,14:40,false
 D-2,Mo,15:00,true
 D-2,Tu,15:00,true
-D-2,We,15:00,false
+D-2,We,15:00,true
 D-2,Th,15:00,true
-D-2,Fr,15:00,false
+D-2,Fr,15:00,true
 D-2,Sa,15:00,false
 D-2,Su,15:00,false
 D-2,Mo,15:20,true
 D-2,Tu,15:20,true
-D-2,We,15:20,false
+D-2,We,15:20,true
 D-2,Th,15:20,true
-D-2,Fr,15:20,false
+D-2,Fr,15:20,true
 D-2,Sa,15:20,false
 D-2,Su,15:20,false
 D-2,Mo,15:40,true
 D-2,Tu,15:40,true
-D-2,We,15:40,false
+D-2,We,15:40,true
 D-2,Th,15:40,true
-D-2,Fr,15:40,false
+D-2,Fr,15:40,true
 D-2,Sa,15:40,false
 D-2,Su,15:40,false
 D-3,Mo,08:00,true
@@ -3486,28 +3486,28 @@ D-3,Fr,13:40,false
 D-3,Sa,13:40,false
 D-3,Su,13:40,false
 D-3,Mo,14:00,true
-D-3,Tu,14:00,false
+D-3,Tu,14:00,true
 D-3,We,14:00,false
 D-3,Th,14:00,false
 D-3,Fr,14:00,false
 D-3,Sa,14:00,false
 D-3,Su,14:00,false
 D-3,Mo,14:20,true
-D-3,Tu,14:20,false
+D-3,Tu,14:20,true
 D-3,We,14:20,false
 D-3,Th,14:20,false
 D-3,Fr,14:20,false
 D-3,Sa,14:20,false
 D-3,Su,14:20,false
 D-3,Mo,14:40,true
-D-3,Tu,14:40,false
+D-3,Tu,14:40,true
 D-3,We,14:40,false
 D-3,Th,14:40,false
 D-3,Fr,14:40,false
 D-3,Sa,14:40,false
 D-3,Su,14:40,false
 D-3,Mo,15:00,true
-D-3,Tu,15:00,false
+D-3,Tu,15:00,true
 D-3,We,15:00,false
 D-3,Th,15:00,false
 D-3,Fr,15:00,false
@@ -3560,42 +3560,42 @@ D-5,Tu,09:20,true
 D-5,We,09:20,true
 D-5,Th,09:20,true
 D-5,Fr,09:20,true
-D-5,Sa,09:20,false
+D-5,Sa,09:20,true
 D-5,Su,09:20,false
 D-5,Mo,09:40,true
 D-5,Tu,09:40,true
 D-5,We,09:40,true
 D-5,Th,09:40,true
 D-5,Fr,09:40,true
-D-5,Sa,09:40,false
+D-5,Sa,09:40,true
 D-5,Su,09:40,false
 D-5,Mo,10:00,true
 D-5,Tu,10:00,true
 D-5,We,10:00,true
 D-5,Th,10:00,true
 D-5,Fr,10:00,true
-D-5,Sa,10:00,false
+D-5,Sa,10:00,true
 D-5,Su,10:00,false
 D-5,Mo,10:20,true
 D-5,Tu,10:20,true
 D-5,We,10:20,true
 D-5,Th,10:20,true
 D-5,Fr,10:20,true
-D-5,Sa,10:20,false
+D-5,Sa,10:20,true
 D-5,Su,10:20,false
 D-5,Mo,10:40,true
 D-5,Tu,10:40,true
 D-5,We,10:40,true
 D-5,Th,10:40,true
 D-5,Fr,10:40,true
-D-5,Sa,10:40,false
+D-5,Sa,10:40,true
 D-5,Su,10:40,false
 D-5,Mo,11:00,true
 D-5,Tu,11:00,true
 D-5,We,11:00,true
 D-5,Th,11:00,true
 D-5,Fr,11:00,false
-D-5,Sa,11:00,false
+D-5,Sa,11:00,true
 D-5,Su,11:00,false
 D-5,Mo,11:20,true
 D-5,Tu,11:20,true
@@ -3655,43 +3655,43 @@ D-5,Sa,13:40,true
 D-5,Su,13:40,false
 D-5,Mo,14:00,true
 D-5,Tu,14:00,false
-D-5,We,14:00,false
-D-5,Th,14:00,false
+D-5,We,14:00,true
+D-5,Th,14:00,true
 D-5,Fr,14:00,true
 D-5,Sa,14:00,false
 D-5,Su,14:00,false
 D-5,Mo,14:20,true
 D-5,Tu,14:20,false
-D-5,We,14:20,false
-D-5,Th,14:20,false
+D-5,We,14:20,true
+D-5,Th,14:20,true
 D-5,Fr,14:20,true
 D-5,Sa,14:20,false
 D-5,Su,14:20,false
 D-5,Mo,14:40,true
 D-5,Tu,14:40,false
-D-5,We,14:40,false
-D-5,Th,14:40,false
+D-5,We,14:40,true
+D-5,Th,14:40,true
 D-5,Fr,14:40,true
 D-5,Sa,14:40,false
 D-5,Su,14:40,false
 D-5,Mo,15:00,true
 D-5,Tu,15:00,false
-D-5,We,15:00,false
-D-5,Th,15:00,false
+D-5,We,15:00,true
+D-5,Th,15:00,true
 D-5,Fr,15:00,true
 D-5,Sa,15:00,false
 D-5,Su,15:00,false
 D-5,Mo,15:20,true
 D-5,Tu,15:20,false
-D-5,We,15:20,false
-D-5,Th,15:20,false
+D-5,We,15:20,true
+D-5,Th,15:20,true
 D-5,Fr,15:20,true
 D-5,Sa,15:20,false
 D-5,Su,15:20,false
 D-5,Mo,15:40,true
 D-5,Tu,15:40,false
-D-5,We,15:40,false
-D-5,Th,15:40,false
+D-5,We,15:40,true
+D-5,Th,15:40,true
 D-5,Fr,15:40,true
 D-5,Sa,15:40,false
 D-5,Su,15:40,false
@@ -3823,82 +3823,82 @@ D-6,Sa,13:40,false
 D-6,Su,13:40,false
 D-6,Mo,14:00,true
 D-6,Tu,14:00,false
-D-6,We,14:00,false
+D-6,We,14:00,true
 D-6,Th,14:00,true
-D-6,Fr,14:00,false
+D-6,Fr,14:00,true
 D-6,Sa,14:00,false
 D-6,Su,14:00,false
 D-6,Mo,14:20,true
 D-6,Tu,14:20,false
-D-6,We,14:20,false
+D-6,We,14:20,true
 D-6,Th,14:20,true
-D-6,Fr,14:20,false
+D-6,Fr,14:20,true
 D-6,Sa,14:20,false
 D-6,Su,14:20,false
 D-6,Mo,14:40,true
 D-6,Tu,14:40,false
-D-6,We,14:40,false
+D-6,We,14:40,true
 D-6,Th,14:40,true
-D-6,Fr,14:40,false
+D-6,Fr,14:40,true
 D-6,Sa,14:40,false
 D-6,Su,14:40,false
 D-6,Mo,15:00,true
 D-6,Tu,15:00,false
-D-6,We,15:00,false
+D-6,We,15:00,true
 D-6,Th,15:00,true
-D-6,Fr,15:00,false
+D-6,Fr,15:00,true
 D-6,Sa,15:00,false
 D-6,Su,15:00,false
 D-6,Mo,15:20,true
 D-6,Tu,15:20,false
-D-6,We,15:20,false
+D-6,We,15:20,true
 D-6,Th,15:20,true
-D-6,Fr,15:20,false
+D-6,Fr,15:20,true
 D-6,Sa,15:20,false
 D-6,Su,15:20,false
 D-6,Mo,15:40,true
 D-6,Tu,15:40,false
-D-6,We,15:40,false
+D-6,We,15:40,true
 D-6,Th,15:40,true
-D-6,Fr,15:40,false
+D-6,Fr,15:40,true
 D-6,Sa,15:40,false
 D-6,Su,15:40,false
-D-8,Mo,08:00,false
+D-8,Mo,08:00,true
 D-8,Tu,08:00,true
 D-8,We,08:00,true
 D-8,Th,08:00,true
 D-8,Fr,08:00,false
 D-8,Sa,08:00,true
 D-8,Su,08:00,true
-D-8,Mo,08:20,false
+D-8,Mo,08:20,true
 D-8,Tu,08:20,true
 D-8,We,08:20,true
 D-8,Th,08:20,true
 D-8,Fr,08:20,false
 D-8,Sa,08:20,true
 D-8,Su,08:20,true
-D-8,Mo,08:40,false
+D-8,Mo,08:40,true
 D-8,Tu,08:40,true
 D-8,We,08:40,true
 D-8,Th,08:40,true
 D-8,Fr,08:40,false
 D-8,Sa,08:40,true
 D-8,Su,08:40,true
-D-8,Mo,09:00,false
+D-8,Mo,09:00,true
 D-8,Tu,09:00,true
 D-8,We,09:00,true
 D-8,Th,09:00,true
 D-8,Fr,09:00,true
 D-8,Sa,09:00,true
 D-8,Su,09:00,true
-D-8,Mo,09:20,false
+D-8,Mo,09:20,true
 D-8,Tu,09:20,true
 D-8,We,09:20,true
 D-8,Th,09:20,true
 D-8,Fr,09:20,true
 D-8,Sa,09:20,true
 D-8,Su,09:20,true
-D-8,Mo,09:40,false
+D-8,Mo,09:40,true
 D-8,Tu,09:40,true
 D-8,We,09:40,true
 D-8,Th,09:40,true
@@ -3927,106 +3927,106 @@ D-8,Fr,10:40,true
 D-8,Sa,10:40,true
 D-8,Su,10:40,false
 D-8,Mo,11:00,true
-D-8,Tu,11:00,false
+D-8,Tu,11:00,true
 D-8,We,11:00,true
 D-8,Th,11:00,true
 D-8,Fr,11:00,true
 D-8,Sa,11:00,false
 D-8,Su,11:00,false
 D-8,Mo,11:20,true
-D-8,Tu,11:20,false
+D-8,Tu,11:20,true
 D-8,We,11:20,true
 D-8,Th,11:20,true
 D-8,Fr,11:20,true
 D-8,Sa,11:20,true
 D-8,Su,11:20,true
 D-8,Mo,11:40,true
-D-8,Tu,11:40,false
+D-8,Tu,11:40,true
 D-8,We,11:40,true
 D-8,Th,11:40,true
 D-8,Fr,11:40,true
 D-8,Sa,11:40,true
 D-8,Su,11:40,true
 D-8,Mo,12:00,false
-D-8,Tu,12:00,false
-D-8,We,12:00,false
+D-8,Tu,12:00,true
+D-8,We,12:00,true
 D-8,Th,12:00,true
 D-8,Fr,12:00,true
 D-8,Sa,12:00,true
 D-8,Su,12:00,true
 D-8,Mo,12:20,false
-D-8,Tu,12:20,false
-D-8,We,12:20,false
+D-8,Tu,12:20,true
+D-8,We,12:20,true
 D-8,Th,12:20,true
 D-8,Fr,12:20,true
 D-8,Sa,12:20,true
 D-8,Su,12:20,true
 D-8,Mo,12:40,false
-D-8,Tu,12:40,false
-D-8,We,12:40,false
+D-8,Tu,12:40,true
+D-8,We,12:40,true
 D-8,Th,12:40,true
 D-8,Fr,12:40,true
 D-8,Sa,12:40,true
 D-8,Su,12:40,true
 D-8,Mo,13:00,false
 D-8,Tu,13:00,true
-D-8,We,13:00,false
+D-8,We,13:00,true
 D-8,Th,13:00,true
 D-8,Fr,13:00,false
 D-8,Sa,13:00,true
 D-8,Su,13:00,true
 D-8,Mo,13:20,false
 D-8,Tu,13:20,true
-D-8,We,13:20,false
+D-8,We,13:20,true
 D-8,Th,13:20,true
 D-8,Fr,13:20,false
 D-8,Sa,13:20,false
 D-8,Su,13:20,false
 D-8,Mo,13:40,false
 D-8,Tu,13:40,true
-D-8,We,13:40,false
+D-8,We,13:40,true
 D-8,Th,13:40,true
 D-8,Fr,13:40,false
 D-8,Sa,13:40,false
 D-8,Su,13:40,false
 D-8,Mo,14:00,true
-D-8,Tu,14:00,false
-D-8,We,14:00,false
+D-8,Tu,14:00,true
+D-8,We,14:00,true
 D-8,Th,14:00,true
 D-8,Fr,14:00,false
 D-8,Sa,14:00,false
 D-8,Su,14:00,false
 D-8,Mo,14:20,true
-D-8,Tu,14:20,false
-D-8,We,14:20,false
+D-8,Tu,14:20,true
+D-8,We,14:20,true
 D-8,Th,14:20,true
 D-8,Fr,14:20,false
 D-8,Sa,14:20,false
 D-8,Su,14:20,false
 D-8,Mo,14:40,true
-D-8,Tu,14:40,false
-D-8,We,14:40,false
+D-8,Tu,14:40,true
+D-8,We,14:40,true
 D-8,Th,14:40,true
 D-8,Fr,14:40,false
 D-8,Sa,14:40,false
 D-8,Su,14:40,false
 D-8,Mo,15:00,true
-D-8,Tu,15:00,false
-D-8,We,15:00,false
+D-8,Tu,15:00,true
+D-8,We,15:00,true
 D-8,Th,15:00,true
 D-8,Fr,15:00,false
 D-8,Sa,15:00,false
 D-8,Su,15:00,false
 D-8,Mo,15:20,true
-D-8,Tu,15:20,false
-D-8,We,15:20,false
+D-8,Tu,15:20,true
+D-8,We,15:20,true
 D-8,Th,15:20,true
 D-8,Fr,15:20,false
 D-8,Sa,15:20,false
 D-8,Su,15:20,false
 D-8,Mo,15:40,true
-D-8,Tu,15:40,false
-D-8,We,15:40,false
+D-8,Tu,15:40,true
+D-8,We,15:40,true
 D-8,Th,15:40,true
 D-8,Fr,15:40,false
 D-8,Sa,15:40,false
@@ -4095,106 +4095,106 @@ D-9,Fr,10:40,true
 D-9,Sa,10:40,true
 D-9,Su,10:40,false
 D-9,Mo,11:00,true
-D-9,Tu,11:00,false
+D-9,Tu,11:00,true
 D-9,We,11:00,true
 D-9,Th,11:00,true
 D-9,Fr,11:00,true
-D-9,Sa,11:00,false
+D-9,Sa,11:00,true
 D-9,Su,11:00,false
 D-9,Mo,11:20,true
-D-9,Tu,11:20,false
+D-9,Tu,11:20,true
 D-9,We,11:20,true
 D-9,Th,11:20,true
 D-9,Fr,11:20,true
-D-9,Sa,11:20,false
+D-9,Sa,11:20,true
 D-9,Su,11:20,false
 D-9,Mo,11:40,true
-D-9,Tu,11:40,false
+D-9,Tu,11:40,true
 D-9,We,11:40,true
 D-9,Th,11:40,true
 D-9,Fr,11:40,true
-D-9,Sa,11:40,false
+D-9,Sa,11:40,true
 D-9,Su,11:40,false
 D-9,Mo,12:00,true
-D-9,Tu,12:00,false
-D-9,We,12:00,false
+D-9,Tu,12:00,true
+D-9,We,12:00,true
 D-9,Th,12:00,true
 D-9,Fr,12:00,true
-D-9,Sa,12:00,false
+D-9,Sa,12:00,true
 D-9,Su,12:00,false
 D-9,Mo,12:20,true
-D-9,Tu,12:20,false
-D-9,We,12:20,false
+D-9,Tu,12:20,true
+D-9,We,12:20,true
 D-9,Th,12:20,true
 D-9,Fr,12:20,false
-D-9,Sa,12:20,false
+D-9,Sa,12:20,true
 D-9,Su,12:20,false
 D-9,Mo,12:40,false
-D-9,Tu,12:40,false
-D-9,We,12:40,false
+D-9,Tu,12:40,true
+D-9,We,12:40,true
 D-9,Th,12:40,true
 D-9,Fr,12:40,false
-D-9,Sa,12:40,false
+D-9,Sa,12:40,true
 D-9,Su,12:40,false
 D-9,Mo,13:00,false
 D-9,Tu,13:00,true
-D-9,We,13:00,false
+D-9,We,13:00,true
 D-9,Th,13:00,true
 D-9,Fr,13:00,false
 D-9,Sa,13:00,false
 D-9,Su,13:00,false
 D-9,Mo,13:20,false
 D-9,Tu,13:20,true
-D-9,We,13:20,false
+D-9,We,13:20,true
 D-9,Th,13:20,true
 D-9,Fr,13:20,false
 D-9,Sa,13:20,false
 D-9,Su,13:20,false
 D-9,Mo,13:40,false
 D-9,Tu,13:40,true
-D-9,We,13:40,false
+D-9,We,13:40,true
 D-9,Th,13:40,true
 D-9,Fr,13:40,false
 D-9,Sa,13:40,false
 D-9,Su,13:40,false
 D-9,Mo,14:00,true
 D-9,Tu,14:00,true
-D-9,We,14:00,false
+D-9,We,14:00,true
 D-9,Th,14:00,true
 D-9,Fr,14:00,true
 D-9,Sa,14:00,false
 D-9,Su,14:00,false
 D-9,Mo,14:20,true
 D-9,Tu,14:20,true
-D-9,We,14:20,false
+D-9,We,14:20,true
 D-9,Th,14:20,true
 D-9,Fr,14:20,true
 D-9,Sa,14:20,false
 D-9,Su,14:20,false
 D-9,Mo,14:40,true
 D-9,Tu,14:40,true
-D-9,We,14:40,false
+D-9,We,14:40,true
 D-9,Th,14:40,true
 D-9,Fr,14:40,true
 D-9,Sa,14:40,false
 D-9,Su,14:40,false
 D-9,Mo,15:00,true
 D-9,Tu,15:00,true
-D-9,We,15:00,false
+D-9,We,15:00,true
 D-9,Th,15:00,true
 D-9,Fr,15:00,true
 D-9,Sa,15:00,false
 D-9,Su,15:00,false
 D-9,Mo,15:20,true
 D-9,Tu,15:20,true
-D-9,We,15:20,false
+D-9,We,15:20,true
 D-9,Th,15:20,true
 D-9,Fr,15:20,true
 D-9,Sa,15:20,false
 D-9,Su,15:20,false
 D-9,Mo,15:40,true
 D-9,Tu,15:40,true
-D-9,We,15:40,false
+D-9,We,15:40,true
 D-9,Th,15:40,true
 D-9,Fr,15:40,true
 D-9,Sa,15:40,false
@@ -4223,85 +4223,85 @@ D-10,Su,08:40,false
 D-10,Mo,09:00,true
 D-10,Tu,09:00,true
 D-10,We,09:00,true
-D-10,Th,09:00,false
+D-10,Th,09:00,true
 D-10,Fr,09:00,true
 D-10,Sa,09:00,true
 D-10,Su,09:00,false
 D-10,Mo,09:20,false
 D-10,Tu,09:20,false
 D-10,We,09:20,true
-D-10,Th,09:20,false
+D-10,Th,09:20,true
 D-10,Fr,09:20,true
 D-10,Sa,09:20,true
 D-10,Su,09:20,false
 D-10,Mo,09:40,true
 D-10,Tu,09:40,true
 D-10,We,09:40,true
-D-10,Th,09:40,false
+D-10,Th,09:40,true
 D-10,Fr,09:40,true
 D-10,Sa,09:40,true
 D-10,Su,09:40,false
 D-10,Mo,10:00,true
 D-10,Tu,10:00,true
 D-10,We,10:00,true
-D-10,Th,10:00,false
+D-10,Th,10:00,true
 D-10,Fr,10:00,true
 D-10,Sa,10:00,true
 D-10,Su,10:00,false
 D-10,Mo,10:20,true
 D-10,Tu,10:20,true
 D-10,We,10:20,true
-D-10,Th,10:20,false
+D-10,Th,10:20,true
 D-10,Fr,10:20,true
 D-10,Sa,10:20,true
 D-10,Su,10:20,false
 D-10,Mo,10:40,false
 D-10,Tu,10:40,false
 D-10,We,10:40,true
-D-10,Th,10:40,false
+D-10,Th,10:40,true
 D-10,Fr,10:40,true
 D-10,Sa,10:40,true
 D-10,Su,10:40,false
 D-10,Mo,11:00,true
 D-10,Tu,11:00,true
-D-10,We,11:00,false
-D-10,Th,11:00,false
-D-10,Fr,11:00,false
+D-10,We,11:00,true
+D-10,Th,11:00,true
+D-10,Fr,11:00,true
 D-10,Sa,11:00,false
 D-10,Su,11:00,false
 D-10,Mo,11:20,true
 D-10,Tu,11:20,true
-D-10,We,11:20,false
-D-10,Th,11:20,false
-D-10,Fr,11:20,false
+D-10,We,11:20,true
+D-10,Th,11:20,true
+D-10,Fr,11:20,true
 D-10,Sa,11:20,true
 D-10,Su,11:20,false
 D-10,Mo,11:40,true
 D-10,Tu,11:40,true
-D-10,We,11:40,false
-D-10,Th,11:40,false
-D-10,Fr,11:40,false
+D-10,We,11:40,true
+D-10,Th,11:40,true
+D-10,Fr,11:40,true
 D-10,Sa,11:40,true
 D-10,Su,11:40,false
 D-10,Mo,12:00,true
 D-10,Tu,12:00,true
 D-10,We,12:00,true
-D-10,Th,12:00,false
-D-10,Fr,12:00,false
+D-10,Th,12:00,true
+D-10,Fr,12:00,true
 D-10,Sa,12:00,true
 D-10,Su,12:00,false
 D-10,Mo,12:20,true
 D-10,Tu,12:20,true
 D-10,We,12:20,true
-D-10,Th,12:20,false
-D-10,Fr,12:20,false
+D-10,Th,12:20,true
+D-10,Fr,12:20,true
 D-10,Sa,12:20,true
 D-10,Su,12:20,false
 D-10,Mo,12:40,true
 D-10,Tu,12:40,true
 D-10,We,12:40,true
-D-10,Th,12:40,false
-D-10,Fr,12:40,false
+D-10,Th,12:40,true
+D-10,Fr,12:40,true
 D-10,Sa,12:40,true
 D-10,Su,12:40,false
 D-10,Mo,13:00,true
@@ -4329,42 +4329,42 @@ D-10,Mo,14:00,false
 D-10,Tu,14:00,false
 D-10,We,14:00,true
 D-10,Th,14:00,false
-D-10,Fr,14:00,false
+D-10,Fr,14:00,true
 D-10,Sa,14:00,false
 D-10,Su,14:00,false
 D-10,Mo,14:20,false
 D-10,Tu,14:20,false
 D-10,We,14:20,true
 D-10,Th,14:20,false
-D-10,Fr,14:20,false
+D-10,Fr,14:20,true
 D-10,Sa,14:20,false
 D-10,Su,14:20,false
 D-10,Mo,14:40,false
 D-10,Tu,14:40,false
 D-10,We,14:40,true
 D-10,Th,14:40,false
-D-10,Fr,14:40,false
+D-10,Fr,14:40,true
 D-10,Sa,14:40,false
 D-10,Su,14:40,false
 D-10,Mo,15:00,false
 D-10,Tu,15:00,false
 D-10,We,15:00,true
 D-10,Th,15:00,false
-D-10,Fr,15:00,false
+D-10,Fr,15:00,true
 D-10,Sa,15:00,false
 D-10,Su,15:00,false
 D-10,Mo,15:20,false
 D-10,Tu,15:20,false
 D-10,We,15:20,true
 D-10,Th,15:20,false
-D-10,Fr,15:20,false
+D-10,Fr,15:20,true
 D-10,Sa,15:20,false
 D-10,Su,15:20,false
 D-10,Mo,15:40,false
 D-10,Tu,15:40,false
 D-10,We,15:40,true
 D-10,Th,15:40,false
-D-10,Fr,15:40,false
+D-10,Fr,15:40,true
 D-10,Sa,15:40,false
 D-10,Su,15:40,false
 D-11,Mo,08:00,false
@@ -4535,42 +4535,42 @@ D-11,Th,15:40,true
 D-11,Fr,15:40,false
 D-11,Sa,15:40,false
 D-11,Su,15:40,false
-D-12,Mo,08:00,false
+D-12,Mo,08:00,true
 D-12,Tu,08:00,true
 D-12,We,08:00,true
 D-12,Th,08:00,true
 D-12,Fr,08:00,true
 D-12,Sa,08:00,false
 D-12,Su,08:00,false
-D-12,Mo,08:20,false
+D-12,Mo,08:20,true
 D-12,Tu,08:20,true
 D-12,We,08:20,true
 D-12,Th,08:20,true
 D-12,Fr,08:20,true
 D-12,Sa,08:20,false
 D-12,Su,08:20,false
-D-12,Mo,08:40,false
+D-12,Mo,08:40,true
 D-12,Tu,08:40,true
 D-12,We,08:40,true
 D-12,Th,08:40,true
 D-12,Fr,08:40,true
 D-12,Sa,08:40,false
 D-12,Su,08:40,false
-D-12,Mo,09:00,false
+D-12,Mo,09:00,true
 D-12,Tu,09:00,true
 D-12,We,09:00,true
 D-12,Th,09:00,true
 D-12,Fr,09:00,true
 D-12,Sa,09:00,true
 D-12,Su,09:00,false
-D-12,Mo,09:20,false
+D-12,Mo,09:20,true
 D-12,Tu,09:20,true
 D-12,We,09:20,true
 D-12,Th,09:20,true
 D-12,Fr,09:20,true
 D-12,Sa,09:20,true
 D-12,Su,09:20,false
-D-12,Mo,09:40,false
+D-12,Mo,09:40,true
 D-12,Tu,09:40,true
 D-12,We,09:40,true
 D-12,Th,09:40,true
@@ -4661,45 +4661,45 @@ D-12,Th,13:40,true
 D-12,Fr,13:40,false
 D-12,Sa,13:40,false
 D-12,Su,13:40,false
-D-12,Mo,14:00,false
+D-12,Mo,14:00,true
 D-12,Tu,14:00,true
 D-12,We,14:00,true
-D-12,Th,14:00,false
+D-12,Th,14:00,true
 D-12,Fr,14:00,true
 D-12,Sa,14:00,false
 D-12,Su,14:00,false
-D-12,Mo,14:20,false
+D-12,Mo,14:20,true
 D-12,Tu,14:20,true
 D-12,We,14:20,true
-D-12,Th,14:20,false
+D-12,Th,14:20,true
 D-12,Fr,14:20,true
 D-12,Sa,14:20,false
 D-12,Su,14:20,false
-D-12,Mo,14:40,false
+D-12,Mo,14:40,true
 D-12,Tu,14:40,true
 D-12,We,14:40,true
-D-12,Th,14:40,false
+D-12,Th,14:40,true
 D-12,Fr,14:40,true
 D-12,Sa,14:40,false
 D-12,Su,14:40,false
-D-12,Mo,15:00,false
+D-12,Mo,15:00,true
 D-12,Tu,15:00,true
 D-12,We,15:00,true
-D-12,Th,15:00,false
+D-12,Th,15:00,true
 D-12,Fr,15:00,true
 D-12,Sa,15:00,false
 D-12,Su,15:00,false
-D-12,Mo,15:20,false
+D-12,Mo,15:20,true
 D-12,Tu,15:20,true
 D-12,We,15:20,true
-D-12,Th,15:20,false
+D-12,Th,15:20,true
 D-12,Fr,15:20,true
 D-12,Sa,15:20,false
 D-12,Su,15:20,false
-D-12,Mo,15:40,false
+D-12,Mo,15:40,true
 D-12,Tu,15:40,true
 D-12,We,15:40,true
-D-12,Th,15:40,false
+D-12,Th,15:40,true
 D-12,Fr,15:40,true
 D-12,Sa,15:40,false
 D-12,Su,15:40,false
@@ -5000,28 +5000,28 @@ D-14,Su,13:40,false
 D-14,Mo,14:00,true
 D-14,Tu,14:00,true
 D-14,We,14:00,true
-D-14,Th,14:00,false
+D-14,Th,14:00,true
 D-14,Fr,14:00,true
 D-14,Sa,14:00,false
 D-14,Su,14:00,false
 D-14,Mo,14:20,true
 D-14,Tu,14:20,true
 D-14,We,14:20,true
-D-14,Th,14:20,false
+D-14,Th,14:20,true
 D-14,Fr,14:20,true
 D-14,Sa,14:20,false
 D-14,Su,14:20,false
 D-14,Mo,14:40,true
 D-14,Tu,14:40,true
 D-14,We,14:40,true
-D-14,Th,14:40,false
+D-14,Th,14:40,true
 D-14,Fr,14:40,true
 D-14,Sa,14:40,false
 D-14,Su,14:40,false
 D-14,Mo,15:00,true
 D-14,Tu,15:00,true
 D-14,We,15:00,true
-D-14,Th,15:00,false
+D-14,Th,15:00,true
 D-14,Fr,15:00,true
 D-14,Sa,15:00,false
 D-14,Su,15:00,false
@@ -5063,21 +5063,21 @@ D-15,Su,08:40,false
 D-15,Mo,09:00,true
 D-15,Tu,09:00,true
 D-15,We,09:00,true
-D-15,Th,09:00,false
+D-15,Th,09:00,true
 D-15,Fr,09:00,true
 D-15,Sa,09:00,false
 D-15,Su,09:00,false
 D-15,Mo,09:20,true
 D-15,Tu,09:20,true
 D-15,We,09:20,true
-D-15,Th,09:20,false
+D-15,Th,09:20,true
 D-15,Fr,09:20,true
 D-15,Sa,09:20,false
 D-15,Su,09:20,false
 D-15,Mo,09:40,true
 D-15,Tu,09:40,true
 D-15,We,09:40,true
-D-15,Th,09:40,false
+D-15,Th,09:40,true
 D-15,Fr,09:40,true
 D-15,Sa,09:40,false
 D-15,Su,09:40,false
@@ -5168,28 +5168,28 @@ D-15,Su,13:40,false
 D-15,Mo,14:00,true
 D-15,Tu,14:00,true
 D-15,We,14:00,true
-D-15,Th,14:00,false
+D-15,Th,14:00,true
 D-15,Fr,14:00,false
 D-15,Sa,14:00,false
 D-15,Su,14:00,false
 D-15,Mo,14:20,true
 D-15,Tu,14:20,true
 D-15,We,14:20,true
-D-15,Th,14:20,false
+D-15,Th,14:20,true
 D-15,Fr,14:20,false
 D-15,Sa,14:20,false
 D-15,Su,14:20,false
 D-15,Mo,14:40,true
 D-15,Tu,14:40,true
 D-15,We,14:40,true
-D-15,Th,14:40,false
+D-15,Th,14:40,true
 D-15,Fr,14:40,false
 D-15,Sa,14:40,false
 D-15,Su,14:40,false
 D-15,Mo,15:00,true
 D-15,Tu,15:00,true
 D-15,We,15:00,true
-D-15,Th,15:00,false
+D-15,Th,15:00,true
 D-15,Fr,15:00,false
 D-15,Sa,15:00,false
 D-15,Su,15:00,false
@@ -5336,42 +5336,42 @@ D-106,Su,13:40,false
 D-106,Mo,14:00,false
 D-106,Tu,14:00,false
 D-106,We,14:00,true
-D-106,Th,14:00,false
+D-106,Th,14:00,true
 D-106,Fr,14:00,true
 D-106,Sa,14:00,false
 D-106,Su,14:00,false
 D-106,Mo,14:20,false
 D-106,Tu,14:20,false
 D-106,We,14:20,true
-D-106,Th,14:20,false
+D-106,Th,14:20,true
 D-106,Fr,14:20,true
 D-106,Sa,14:20,false
 D-106,Su,14:20,false
 D-106,Mo,14:40,false
 D-106,Tu,14:40,true
 D-106,We,14:40,true
-D-106,Th,14:40,false
+D-106,Th,14:40,true
 D-106,Fr,14:40,true
 D-106,Sa,14:40,false
 D-106,Su,14:40,false
 D-106,Mo,15:00,false
 D-106,Tu,15:00,true
 D-106,We,15:00,true
-D-106,Th,15:00,false
+D-106,Th,15:00,true
 D-106,Fr,15:00,true
 D-106,Sa,15:00,false
 D-106,Su,15:00,false
 D-106,Mo,15:20,false
 D-106,Tu,15:20,true
 D-106,We,15:20,true
-D-106,Th,15:20,false
+D-106,Th,15:20,true
 D-106,Fr,15:20,true
 D-106,Sa,15:20,false
 D-106,Su,15:20,false
 D-106,Mo,15:40,false
 D-106,Tu,15:40,true
 D-106,We,15:40,true
-D-106,Th,15:40,false
+D-106,Th,15:40,true
 D-106,Fr,15:40,true
 D-106,Sa,15:40,false
 D-106,Su,15:40,false
@@ -5502,42 +5502,42 @@ D-107,Fr,13:40,false
 D-107,Sa,13:40,false
 D-107,Su,13:40,false
 D-107,Mo,14:00,false
-D-107,Tu,14:00,false
+D-107,Tu,14:00,true
 D-107,We,14:00,true
 D-107,Th,14:00,true
 D-107,Fr,14:00,true
 D-107,Sa,14:00,false
 D-107,Su,14:00,false
 D-107,Mo,14:20,false
-D-107,Tu,14:20,false
+D-107,Tu,14:20,true
 D-107,We,14:20,true
 D-107,Th,14:20,true
 D-107,Fr,14:20,true
 D-107,Sa,14:20,false
 D-107,Su,14:20,false
 D-107,Mo,14:40,false
-D-107,Tu,14:40,false
+D-107,Tu,14:40,true
 D-107,We,14:40,true
 D-107,Th,14:40,true
 D-107,Fr,14:40,true
 D-107,Sa,14:40,false
 D-107,Su,14:40,false
 D-107,Mo,15:00,false
-D-107,Tu,15:00,false
+D-107,Tu,15:00,true
 D-107,We,15:00,true
 D-107,Th,15:00,true
 D-107,Fr,15:00,true
 D-107,Sa,15:00,false
 D-107,Su,15:00,false
 D-107,Mo,15:20,false
-D-107,Tu,15:20,false
+D-107,Tu,15:20,true
 D-107,We,15:20,true
 D-107,Th,15:20,true
 D-107,Fr,15:20,true
 D-107,Sa,15:20,false
 D-107,Su,15:20,false
 D-107,Mo,15:40,false
-D-107,Tu,15:40,false
+D-107,Tu,15:40,true
 D-107,We,15:40,true
 D-107,Th,15:40,true
 D-107,Fr,15:40,true
@@ -5838,42 +5838,42 @@ D-110,Fr,13:40,false
 D-110,Sa,13:40,true
 D-110,Su,13:40,false
 D-110,Mo,14:00,true
-D-110,Tu,14:00,false
+D-110,Tu,14:00,true
 D-110,We,14:00,true
 D-110,Th,14:00,true
 D-110,Fr,14:00,true
 D-110,Sa,14:00,false
 D-110,Su,14:00,false
 D-110,Mo,14:20,true
-D-110,Tu,14:20,false
+D-110,Tu,14:20,true
 D-110,We,14:20,true
 D-110,Th,14:20,true
 D-110,Fr,14:20,true
 D-110,Sa,14:20,false
 D-110,Su,14:20,false
 D-110,Mo,14:40,true
-D-110,Tu,14:40,false
+D-110,Tu,14:40,true
 D-110,We,14:40,true
 D-110,Th,14:40,true
 D-110,Fr,14:40,true
 D-110,Sa,14:40,false
 D-110,Su,14:40,false
 D-110,Mo,15:00,true
-D-110,Tu,15:00,false
+D-110,Tu,15:00,true
 D-110,We,15:00,true
 D-110,Th,15:00,true
 D-110,Fr,15:00,true
 D-110,Sa,15:00,false
 D-110,Su,15:00,false
 D-110,Mo,15:20,true
-D-110,Tu,15:20,false
+D-110,Tu,15:20,true
 D-110,We,15:20,true
 D-110,Th,15:20,true
 D-110,Fr,15:20,true
 D-110,Sa,15:20,false
 D-110,Su,15:20,false
 D-110,Mo,15:40,true
-D-110,Tu,15:40,false
+D-110,Tu,15:40,true
 D-110,We,15:40,true
 D-110,Th,15:40,true
 D-110,Fr,15:40,true
@@ -6175,42 +6175,42 @@ D-112,Sa,13:40,false
 D-112,Su,13:40,false
 D-112,Mo,14:00,false
 D-112,Tu,14:00,false
-D-112,We,14:00,false
+D-112,We,14:00,true
 D-112,Th,14:00,true
 D-112,Fr,14:00,false
 D-112,Sa,14:00,false
 D-112,Su,14:00,false
 D-112,Mo,14:20,false
 D-112,Tu,14:20,false
-D-112,We,14:20,false
+D-112,We,14:20,true
 D-112,Th,14:20,true
 D-112,Fr,14:20,false
 D-112,Sa,14:20,false
 D-112,Su,14:20,false
 D-112,Mo,14:40,false
 D-112,Tu,14:40,false
-D-112,We,14:40,false
+D-112,We,14:40,true
 D-112,Th,14:40,true
 D-112,Fr,14:40,false
 D-112,Sa,14:40,false
 D-112,Su,14:40,false
 D-112,Mo,15:00,false
 D-112,Tu,15:00,false
-D-112,We,15:00,false
+D-112,We,15:00,true
 D-112,Th,15:00,true
 D-112,Fr,15:00,false
 D-112,Sa,15:00,false
 D-112,Su,15:00,false
 D-112,Mo,15:20,false
 D-112,Tu,15:20,false
-D-112,We,15:20,false
+D-112,We,15:20,true
 D-112,Th,15:20,true
 D-112,Fr,15:20,false
 D-112,Sa,15:20,false
 D-112,Su,15:20,false
 D-112,Mo,15:40,false
 D-112,Tu,15:40,false
-D-112,We,15:40,false
+D-112,We,15:40,true
 D-112,Th,15:40,true
 D-112,Fr,15:40,false
 D-112,Sa,15:40,false
@@ -6635,42 +6635,42 @@ D-115,Th,11:40,true
 D-115,Fr,11:40,false
 D-115,Sa,11:40,true
 D-115,Su,11:40,false
-D-115,Mo,12:00,false
+D-115,Mo,12:00,true
 D-115,Tu,12:00,true
 D-115,We,12:00,true
 D-115,Th,12:00,true
 D-115,Fr,12:00,true
 D-115,Sa,12:00,false
 D-115,Su,12:00,false
-D-115,Mo,12:20,false
+D-115,Mo,12:20,true
 D-115,Tu,12:20,true
 D-115,We,12:20,true
 D-115,Th,12:20,true
 D-115,Fr,12:20,true
 D-115,Sa,12:20,false
 D-115,Su,12:20,false
-D-115,Mo,12:40,false
+D-115,Mo,12:40,true
 D-115,Tu,12:40,true
 D-115,We,12:40,true
 D-115,Th,12:40,true
 D-115,Fr,12:40,true
 D-115,Sa,12:40,false
 D-115,Su,12:40,false
-D-115,Mo,13:00,false
+D-115,Mo,13:00,true
 D-115,Tu,13:00,true
 D-115,We,13:00,false
 D-115,Th,13:00,false
 D-115,Fr,13:00,false
 D-115,Sa,13:00,false
 D-115,Su,13:00,false
-D-115,Mo,13:20,false
+D-115,Mo,13:20,true
 D-115,Tu,13:20,true
 D-115,We,13:20,false
 D-115,Th,13:20,false
 D-115,Fr,13:20,false
 D-115,Sa,13:20,false
 D-115,Su,13:20,false
-D-115,Mo,13:40,false
+D-115,Mo,13:40,true
 D-115,Tu,13:40,true
 D-115,We,13:40,false
 D-115,Th,13:40,false
@@ -6848,42 +6848,42 @@ D-116,Su,13:40,false
 D-116,Mo,14:00,false
 D-116,Tu,14:00,true
 D-116,We,14:00,false
-D-116,Th,14:00,false
+D-116,Th,14:00,true
 D-116,Fr,14:00,false
 D-116,Sa,14:00,false
 D-116,Su,14:00,false
 D-116,Mo,14:20,false
 D-116,Tu,14:20,true
 D-116,We,14:20,false
-D-116,Th,14:20,false
+D-116,Th,14:20,true
 D-116,Fr,14:20,false
 D-116,Sa,14:20,false
 D-116,Su,14:20,false
 D-116,Mo,14:40,false
 D-116,Tu,14:40,true
 D-116,We,14:40,false
-D-116,Th,14:40,false
+D-116,Th,14:40,true
 D-116,Fr,14:40,false
 D-116,Sa,14:40,false
 D-116,Su,14:40,false
 D-116,Mo,15:00,false
 D-116,Tu,15:00,true
 D-116,We,15:00,false
-D-116,Th,15:00,false
+D-116,Th,15:00,true
 D-116,Fr,15:00,false
 D-116,Sa,15:00,false
 D-116,Su,15:00,false
 D-116,Mo,15:20,false
 D-116,Tu,15:20,true
 D-116,We,15:20,false
-D-116,Th,15:20,false
+D-116,Th,15:20,true
 D-116,Fr,15:20,false
 D-116,Sa,15:20,false
 D-116,Su,15:20,false
 D-116,Mo,15:40,false
 D-116,Tu,15:40,true
 D-116,We,15:40,false
-D-116,Th,15:40,false
+D-116,Th,15:40,true
 D-116,Fr,15:40,false
 D-116,Sa,15:40,false
 D-116,Su,15:40,false
@@ -6909,21 +6909,21 @@ D-117,Fr,08:40,true
 D-117,Sa,08:40,true
 D-117,Su,08:40,false
 D-117,Mo,09:00,true
-D-117,Tu,09:00,false
+D-117,Tu,09:00,true
 D-117,We,09:00,true
 D-117,Th,09:00,true
 D-117,Fr,09:00,true
 D-117,Sa,09:00,true
 D-117,Su,09:00,false
 D-117,Mo,09:20,true
-D-117,Tu,09:20,false
+D-117,Tu,09:20,true
 D-117,We,09:20,true
 D-117,Th,09:20,true
 D-117,Fr,09:20,true
 D-117,Sa,09:20,false
 D-117,Su,09:20,false
 D-117,Mo,09:40,true
-D-117,Tu,09:40,false
+D-117,Tu,09:40,true
 D-117,We,09:40,true
 D-117,Th,09:40,true
 D-117,Fr,09:40,true
@@ -6950,21 +6950,21 @@ D-117,Th,10:40,true
 D-117,Fr,10:40,true
 D-117,Sa,10:40,true
 D-117,Su,10:40,false
-D-117,Mo,11:00,false
+D-117,Mo,11:00,true
 D-117,Tu,11:00,true
 D-117,We,11:00,true
 D-117,Th,11:00,true
 D-117,Fr,11:00,true
 D-117,Sa,11:00,true
 D-117,Su,11:00,false
-D-117,Mo,11:20,false
+D-117,Mo,11:20,true
 D-117,Tu,11:20,true
 D-117,We,11:20,true
 D-117,Th,11:20,true
 D-117,Fr,11:20,true
 D-117,Sa,11:20,true
 D-117,Su,11:20,false
-D-117,Mo,11:40,false
+D-117,Mo,11:40,true
 D-117,Tu,11:40,true
 D-117,We,11:40,true
 D-117,Th,11:40,true
@@ -7246,42 +7246,42 @@ D-119,Sa,08:40,true
 D-119,Su,08:40,false
 D-119,Mo,09:00,true
 D-119,Tu,09:00,true
-D-119,We,09:00,false
+D-119,We,09:00,true
 D-119,Th,09:00,true
 D-119,Fr,09:00,true
 D-119,Sa,09:00,true
 D-119,Su,09:00,false
 D-119,Mo,09:20,true
 D-119,Tu,09:20,true
-D-119,We,09:20,false
+D-119,We,09:20,true
 D-119,Th,09:20,true
 D-119,Fr,09:20,true
 D-119,Sa,09:20,false
 D-119,Su,09:20,false
 D-119,Mo,09:40,true
 D-119,Tu,09:40,true
-D-119,We,09:40,false
+D-119,We,09:40,true
 D-119,Th,09:40,true
 D-119,Fr,09:40,true
 D-119,Sa,09:40,false
 D-119,Su,09:40,false
 D-119,Mo,10:00,true
 D-119,Tu,10:00,true
-D-119,We,10:00,false
+D-119,We,10:00,true
 D-119,Th,10:00,true
 D-119,Fr,10:00,true
 D-119,Sa,10:00,true
 D-119,Su,10:00,false
 D-119,Mo,10:20,true
 D-119,Tu,10:20,true
-D-119,We,10:20,false
+D-119,We,10:20,true
 D-119,Th,10:20,true
 D-119,Fr,10:20,true
 D-119,Sa,10:20,true
 D-119,Su,10:20,false
 D-119,Mo,10:40,true
 D-119,Tu,10:40,true
-D-119,We,10:40,false
+D-119,We,10:40,true
 D-119,Th,10:40,true
 D-119,Fr,10:40,true
 D-119,Sa,10:40,true
@@ -7352,42 +7352,42 @@ D-119,Su,13:40,false
 D-119,Mo,14:00,true
 D-119,Tu,14:00,false
 D-119,We,14:00,false
-D-119,Th,14:00,false
+D-119,Th,14:00,true
 D-119,Fr,14:00,false
 D-119,Sa,14:00,false
 D-119,Su,14:00,false
 D-119,Mo,14:20,true
 D-119,Tu,14:20,false
 D-119,We,14:20,false
-D-119,Th,14:20,false
+D-119,Th,14:20,true
 D-119,Fr,14:20,false
 D-119,Sa,14:20,false
 D-119,Su,14:20,false
 D-119,Mo,14:40,true
 D-119,Tu,14:40,false
 D-119,We,14:40,false
-D-119,Th,14:40,false
+D-119,Th,14:40,true
 D-119,Fr,14:40,false
 D-119,Sa,14:40,false
 D-119,Su,14:40,false
 D-119,Mo,15:00,true
 D-119,Tu,15:00,false
 D-119,We,15:00,false
-D-119,Th,15:00,false
+D-119,Th,15:00,true
 D-119,Fr,15:00,false
 D-119,Sa,15:00,false
 D-119,Su,15:00,false
 D-119,Mo,15:20,true
 D-119,Tu,15:20,false
 D-119,We,15:20,false
-D-119,Th,15:20,false
+D-119,Th,15:20,true
 D-119,Fr,15:20,false
 D-119,Sa,15:20,false
 D-119,Su,15:20,false
 D-119,Mo,15:40,true
 D-119,Tu,15:40,false
 D-119,We,15:40,false
-D-119,Th,15:40,false
+D-119,Th,15:40,true
 D-119,Fr,15:40,false
 D-119,Sa,15:40,false
 D-119,Su,15:40,false
@@ -8399,6 +8399,174 @@ Electronics Lab (A-14),Th,15:40,false
 Electronics Lab (A-14),Fr,15:40,false
 Electronics Lab (A-14),Sa,15:40,false
 Electronics Lab (A-14),Su,15:40,false
+Electronics Lab (B-17),Mo,08:00,false
+Electronics Lab (B-17),Tu,08:00,false
+Electronics Lab (B-17),We,08:00,false
+Electronics Lab (B-17),Th,08:00,false
+Electronics Lab (B-17),Fr,08:00,false
+Electronics Lab (B-17),Sa,08:00,false
+Electronics Lab (B-17),Su,08:00,false
+Electronics Lab (B-17),Mo,08:20,false
+Electronics Lab (B-17),Tu,08:20,false
+Electronics Lab (B-17),We,08:20,false
+Electronics Lab (B-17),Th,08:20,false
+Electronics Lab (B-17),Fr,08:20,false
+Electronics Lab (B-17),Sa,08:20,false
+Electronics Lab (B-17),Su,08:20,false
+Electronics Lab (B-17),Mo,08:40,false
+Electronics Lab (B-17),Tu,08:40,false
+Electronics Lab (B-17),We,08:40,false
+Electronics Lab (B-17),Th,08:40,false
+Electronics Lab (B-17),Fr,08:40,false
+Electronics Lab (B-17),Sa,08:40,false
+Electronics Lab (B-17),Su,08:40,false
+Electronics Lab (B-17),Mo,09:00,false
+Electronics Lab (B-17),Tu,09:00,false
+Electronics Lab (B-17),We,09:00,false
+Electronics Lab (B-17),Th,09:00,false
+Electronics Lab (B-17),Fr,09:00,false
+Electronics Lab (B-17),Sa,09:00,false
+Electronics Lab (B-17),Su,09:00,false
+Electronics Lab (B-17),Mo,09:20,false
+Electronics Lab (B-17),Tu,09:20,false
+Electronics Lab (B-17),We,09:20,false
+Electronics Lab (B-17),Th,09:20,false
+Electronics Lab (B-17),Fr,09:20,false
+Electronics Lab (B-17),Sa,09:20,false
+Electronics Lab (B-17),Su,09:20,false
+Electronics Lab (B-17),Mo,09:40,false
+Electronics Lab (B-17),Tu,09:40,false
+Electronics Lab (B-17),We,09:40,false
+Electronics Lab (B-17),Th,09:40,false
+Electronics Lab (B-17),Fr,09:40,false
+Electronics Lab (B-17),Sa,09:40,false
+Electronics Lab (B-17),Su,09:40,false
+Electronics Lab (B-17),Mo,10:00,false
+Electronics Lab (B-17),Tu,10:00,false
+Electronics Lab (B-17),We,10:00,false
+Electronics Lab (B-17),Th,10:00,false
+Electronics Lab (B-17),Fr,10:00,false
+Electronics Lab (B-17),Sa,10:00,false
+Electronics Lab (B-17),Su,10:00,false
+Electronics Lab (B-17),Mo,10:20,false
+Electronics Lab (B-17),Tu,10:20,false
+Electronics Lab (B-17),We,10:20,false
+Electronics Lab (B-17),Th,10:20,false
+Electronics Lab (B-17),Fr,10:20,false
+Electronics Lab (B-17),Sa,10:20,false
+Electronics Lab (B-17),Su,10:20,false
+Electronics Lab (B-17),Mo,10:40,false
+Electronics Lab (B-17),Tu,10:40,false
+Electronics Lab (B-17),We,10:40,false
+Electronics Lab (B-17),Th,10:40,false
+Electronics Lab (B-17),Fr,10:40,false
+Electronics Lab (B-17),Sa,10:40,false
+Electronics Lab (B-17),Su,10:40,false
+Electronics Lab (B-17),Mo,11:00,false
+Electronics Lab (B-17),Tu,11:00,true
+Electronics Lab (B-17),We,11:00,false
+Electronics Lab (B-17),Th,11:00,false
+Electronics Lab (B-17),Fr,11:00,false
+Electronics Lab (B-17),Sa,11:00,false
+Electronics Lab (B-17),Su,11:00,false
+Electronics Lab (B-17),Mo,11:20,false
+Electronics Lab (B-17),Tu,11:20,true
+Electronics Lab (B-17),We,11:20,false
+Electronics Lab (B-17),Th,11:20,false
+Electronics Lab (B-17),Fr,11:20,false
+Electronics Lab (B-17),Sa,11:20,false
+Electronics Lab (B-17),Su,11:20,false
+Electronics Lab (B-17),Mo,11:40,false
+Electronics Lab (B-17),Tu,11:40,true
+Electronics Lab (B-17),We,11:40,false
+Electronics Lab (B-17),Th,11:40,false
+Electronics Lab (B-17),Fr,11:40,false
+Electronics Lab (B-17),Sa,11:40,false
+Electronics Lab (B-17),Su,11:40,false
+Electronics Lab (B-17),Mo,12:00,false
+Electronics Lab (B-17),Tu,12:00,true
+Electronics Lab (B-17),We,12:00,false
+Electronics Lab (B-17),Th,12:00,false
+Electronics Lab (B-17),Fr,12:00,false
+Electronics Lab (B-17),Sa,12:00,false
+Electronics Lab (B-17),Su,12:00,false
+Electronics Lab (B-17),Mo,12:20,false
+Electronics Lab (B-17),Tu,12:20,true
+Electronics Lab (B-17),We,12:20,false
+Electronics Lab (B-17),Th,12:20,false
+Electronics Lab (B-17),Fr,12:20,false
+Electronics Lab (B-17),Sa,12:20,false
+Electronics Lab (B-17),Su,12:20,false
+Electronics Lab (B-17),Mo,12:40,false
+Electronics Lab (B-17),Tu,12:40,true
+Electronics Lab (B-17),We,12:40,false
+Electronics Lab (B-17),Th,12:40,false
+Electronics Lab (B-17),Fr,12:40,false
+Electronics Lab (B-17),Sa,12:40,false
+Electronics Lab (B-17),Su,12:40,false
+Electronics Lab (B-17),Mo,13:00,false
+Electronics Lab (B-17),Tu,13:00,false
+Electronics Lab (B-17),We,13:00,false
+Electronics Lab (B-17),Th,13:00,false
+Electronics Lab (B-17),Fr,13:00,false
+Electronics Lab (B-17),Sa,13:00,false
+Electronics Lab (B-17),Su,13:00,false
+Electronics Lab (B-17),Mo,13:20,false
+Electronics Lab (B-17),Tu,13:20,false
+Electronics Lab (B-17),We,13:20,false
+Electronics Lab (B-17),Th,13:20,false
+Electronics Lab (B-17),Fr,13:20,false
+Electronics Lab (B-17),Sa,13:20,false
+Electronics Lab (B-17),Su,13:20,false
+Electronics Lab (B-17),Mo,13:40,false
+Electronics Lab (B-17),Tu,13:40,false
+Electronics Lab (B-17),We,13:40,false
+Electronics Lab (B-17),Th,13:40,false
+Electronics Lab (B-17),Fr,13:40,false
+Electronics Lab (B-17),Sa,13:40,false
+Electronics Lab (B-17),Su,13:40,false
+Electronics Lab (B-17),Mo,14:00,false
+Electronics Lab (B-17),Tu,14:00,false
+Electronics Lab (B-17),We,14:00,false
+Electronics Lab (B-17),Th,14:00,false
+Electronics Lab (B-17),Fr,14:00,false
+Electronics Lab (B-17),Sa,14:00,false
+Electronics Lab (B-17),Su,14:00,false
+Electronics Lab (B-17),Mo,14:20,false
+Electronics Lab (B-17),Tu,14:20,false
+Electronics Lab (B-17),We,14:20,false
+Electronics Lab (B-17),Th,14:20,false
+Electronics Lab (B-17),Fr,14:20,false
+Electronics Lab (B-17),Sa,14:20,false
+Electronics Lab (B-17),Su,14:20,false
+Electronics Lab (B-17),Mo,14:40,false
+Electronics Lab (B-17),Tu,14:40,false
+Electronics Lab (B-17),We,14:40,false
+Electronics Lab (B-17),Th,14:40,false
+Electronics Lab (B-17),Fr,14:40,false
+Electronics Lab (B-17),Sa,14:40,false
+Electronics Lab (B-17),Su,14:40,false
+Electronics Lab (B-17),Mo,15:00,false
+Electronics Lab (B-17),Tu,15:00,false
+Electronics Lab (B-17),We,15:00,false
+Electronics Lab (B-17),Th,15:00,false
+Electronics Lab (B-17),Fr,15:00,false
+Electronics Lab (B-17),Sa,15:00,false
+Electronics Lab (B-17),Su,15:00,false
+Electronics Lab (B-17),Mo,15:20,false
+Electronics Lab (B-17),Tu,15:20,false
+Electronics Lab (B-17),We,15:20,false
+Electronics Lab (B-17),Th,15:20,false
+Electronics Lab (B-17),Fr,15:20,false
+Electronics Lab (B-17),Sa,15:20,false
+Electronics Lab (B-17),Su,15:20,false
+Electronics Lab (B-17),Mo,15:40,false
+Electronics Lab (B-17),Tu,15:40,false
+Electronics Lab (B-17),We,15:40,false
+Electronics Lab (B-17),Th,15:40,false
+Electronics Lab (B-17),Fr,15:40,false
+Electronics Lab (B-17),Sa,15:40,false
+Electronics Lab (B-17),Su,15:40,false
 IMPM,Mo,08:00,false
 IMPM,Tu,08:00,false
 IMPM,We,08:00,false
@@ -8695,64 +8863,64 @@ Industrial Pharm Lab,Sa,13:40,false
 Industrial Pharm Lab,Su,13:40,false
 Industrial Pharm Lab,Mo,14:00,true
 Industrial Pharm Lab,Tu,14:00,true
-Industrial Pharm Lab,We,14:00,false
+Industrial Pharm Lab,We,14:00,true
 Industrial Pharm Lab,Th,14:00,false
 Industrial Pharm Lab,Fr,14:00,true
 Industrial Pharm Lab,Sa,14:00,false
 Industrial Pharm Lab,Su,14:00,false
 Industrial Pharm Lab,Mo,14:20,true
 Industrial Pharm Lab,Tu,14:20,true
-Industrial Pharm Lab,We,14:20,false
+Industrial Pharm Lab,We,14:20,true
 Industrial Pharm Lab,Th,14:20,false
 Industrial Pharm Lab,Fr,14:20,true
 Industrial Pharm Lab,Sa,14:20,false
 Industrial Pharm Lab,Su,14:20,false
 Industrial Pharm Lab,Mo,14:40,true
 Industrial Pharm Lab,Tu,14:40,true
-Industrial Pharm Lab,We,14:40,false
+Industrial Pharm Lab,We,14:40,true
 Industrial Pharm Lab,Th,14:40,false
 Industrial Pharm Lab,Fr,14:40,true
 Industrial Pharm Lab,Sa,14:40,false
 Industrial Pharm Lab,Su,14:40,false
 Industrial Pharm Lab,Mo,15:00,true
 Industrial Pharm Lab,Tu,15:00,true
-Industrial Pharm Lab,We,15:00,false
+Industrial Pharm Lab,We,15:00,true
 Industrial Pharm Lab,Th,15:00,false
 Industrial Pharm Lab,Fr,15:00,true
 Industrial Pharm Lab,Sa,15:00,false
 Industrial Pharm Lab,Su,15:00,false
 Industrial Pharm Lab,Mo,15:20,true
 Industrial Pharm Lab,Tu,15:20,true
-Industrial Pharm Lab,We,15:20,false
+Industrial Pharm Lab,We,15:20,true
 Industrial Pharm Lab,Th,15:20,false
 Industrial Pharm Lab,Fr,15:20,true
 Industrial Pharm Lab,Sa,15:20,false
 Industrial Pharm Lab,Su,15:20,false
 Industrial Pharm Lab,Mo,15:40,true
 Industrial Pharm Lab,Tu,15:40,true
-Industrial Pharm Lab,We,15:40,false
+Industrial Pharm Lab,We,15:40,true
 Industrial Pharm Lab,Th,15:40,false
 Industrial Pharm Lab,Fr,15:40,true
 Industrial Pharm Lab,Sa,15:40,false
 Industrial Pharm Lab,Su,15:40,false
 IRCBM-G2,Mo,08:00,false
-IRCBM-G2,Tu,08:00,false
+IRCBM-G2,Tu,08:00,true
 IRCBM-G2,We,08:00,false
-IRCBM-G2,Th,08:00,false
+IRCBM-G2,Th,08:00,true
 IRCBM-G2,Fr,08:00,false
 IRCBM-G2,Sa,08:00,false
 IRCBM-G2,Su,08:00,false
 IRCBM-G2,Mo,08:20,false
-IRCBM-G2,Tu,08:20,false
+IRCBM-G2,Tu,08:20,true
 IRCBM-G2,We,08:20,false
-IRCBM-G2,Th,08:20,false
+IRCBM-G2,Th,08:20,true
 IRCBM-G2,Fr,08:20,false
 IRCBM-G2,Sa,08:20,false
 IRCBM-G2,Su,08:20,false
 IRCBM-G2,Mo,08:40,false
-IRCBM-G2,Tu,08:40,false
+IRCBM-G2,Tu,08:40,true
 IRCBM-G2,We,08:40,false
-IRCBM-G2,Th,08:40,false
+IRCBM-G2,Th,08:40,true
 IRCBM-G2,Fr,08:40,false
 IRCBM-G2,Sa,08:40,false
 IRCBM-G2,Su,08:40,false
@@ -8778,24 +8946,24 @@ IRCBM-G2,Fr,09:40,false
 IRCBM-G2,Sa,09:40,false
 IRCBM-G2,Su,09:40,false
 IRCBM-G2,Mo,10:00,false
-IRCBM-G2,Tu,10:00,false
+IRCBM-G2,Tu,10:00,true
 IRCBM-G2,We,10:00,false
 IRCBM-G2,Th,10:00,true
-IRCBM-G2,Fr,10:00,false
+IRCBM-G2,Fr,10:00,true
 IRCBM-G2,Sa,10:00,false
 IRCBM-G2,Su,10:00,false
 IRCBM-G2,Mo,10:20,false
-IRCBM-G2,Tu,10:20,false
+IRCBM-G2,Tu,10:20,true
 IRCBM-G2,We,10:20,false
 IRCBM-G2,Th,10:20,true
-IRCBM-G2,Fr,10:20,false
+IRCBM-G2,Fr,10:20,true
 IRCBM-G2,Sa,10:20,false
 IRCBM-G2,Su,10:20,false
 IRCBM-G2,Mo,10:40,false
-IRCBM-G2,Tu,10:40,false
+IRCBM-G2,Tu,10:40,true
 IRCBM-G2,We,10:40,false
 IRCBM-G2,Th,10:40,true
-IRCBM-G2,Fr,10:40,false
+IRCBM-G2,Fr,10:40,true
 IRCBM-G2,Sa,10:40,false
 IRCBM-G2,Su,10:40,false
 IRCBM-G2,Mo,11:00,false
@@ -9451,42 +9619,42 @@ Lab-D,Sa,09:40,true
 Lab-D,Su,09:40,false
 Lab-D,Mo,10:00,true
 Lab-D,Tu,10:00,true
-Lab-D,We,10:00,false
+Lab-D,We,10:00,true
 Lab-D,Th,10:00,true
 Lab-D,Fr,10:00,false
 Lab-D,Sa,10:00,true
 Lab-D,Su,10:00,false
 Lab-D,Mo,10:20,true
 Lab-D,Tu,10:20,true
-Lab-D,We,10:20,false
+Lab-D,We,10:20,true
 Lab-D,Th,10:20,true
 Lab-D,Fr,10:20,false
 Lab-D,Sa,10:20,true
 Lab-D,Su,10:20,false
 Lab-D,Mo,10:40,true
 Lab-D,Tu,10:40,true
-Lab-D,We,10:40,false
+Lab-D,We,10:40,true
 Lab-D,Th,10:40,true
 Lab-D,Fr,10:40,false
 Lab-D,Sa,10:40,true
 Lab-D,Su,10:40,false
 Lab-D,Mo,11:00,true
 Lab-D,Tu,11:00,true
-Lab-D,We,11:00,false
+Lab-D,We,11:00,true
 Lab-D,Th,11:00,true
 Lab-D,Fr,11:00,true
 Lab-D,Sa,11:00,true
 Lab-D,Su,11:00,false
 Lab-D,Mo,11:20,true
 Lab-D,Tu,11:20,true
-Lab-D,We,11:20,false
+Lab-D,We,11:20,true
 Lab-D,Th,11:20,true
 Lab-D,Fr,11:20,true
 Lab-D,Sa,11:20,true
 Lab-D,Su,11:20,false
 Lab-D,Mo,11:40,true
 Lab-D,Tu,11:40,true
-Lab-D,We,11:40,false
+Lab-D,We,11:40,true
 Lab-D,Th,11:40,true
 Lab-D,Fr,11:40,true
 Lab-D,Sa,11:40,true
@@ -9870,45 +10038,45 @@ Microbiology Lab,Fr,13:40,false
 Microbiology Lab,Sa,13:40,false
 Microbiology Lab,Su,13:40,false
 Microbiology Lab,Mo,14:00,false
-Microbiology Lab,Tu,14:00,false
+Microbiology Lab,Tu,14:00,true
 Microbiology Lab,We,14:00,true
 Microbiology Lab,Th,14:00,true
-Microbiology Lab,Fr,14:00,false
+Microbiology Lab,Fr,14:00,true
 Microbiology Lab,Sa,14:00,false
 Microbiology Lab,Su,14:00,false
 Microbiology Lab,Mo,14:20,false
-Microbiology Lab,Tu,14:20,false
+Microbiology Lab,Tu,14:20,true
 Microbiology Lab,We,14:20,true
 Microbiology Lab,Th,14:20,true
-Microbiology Lab,Fr,14:20,false
+Microbiology Lab,Fr,14:20,true
 Microbiology Lab,Sa,14:20,false
 Microbiology Lab,Su,14:20,false
 Microbiology Lab,Mo,14:40,false
-Microbiology Lab,Tu,14:40,false
+Microbiology Lab,Tu,14:40,true
 Microbiology Lab,We,14:40,true
 Microbiology Lab,Th,14:40,true
-Microbiology Lab,Fr,14:40,false
+Microbiology Lab,Fr,14:40,true
 Microbiology Lab,Sa,14:40,false
 Microbiology Lab,Su,14:40,false
 Microbiology Lab,Mo,15:00,false
-Microbiology Lab,Tu,15:00,false
+Microbiology Lab,Tu,15:00,true
 Microbiology Lab,We,15:00,true
 Microbiology Lab,Th,15:00,true
-Microbiology Lab,Fr,15:00,false
+Microbiology Lab,Fr,15:00,true
 Microbiology Lab,Sa,15:00,false
 Microbiology Lab,Su,15:00,false
 Microbiology Lab,Mo,15:20,false
-Microbiology Lab,Tu,15:20,false
+Microbiology Lab,Tu,15:20,true
 Microbiology Lab,We,15:20,true
 Microbiology Lab,Th,15:20,true
-Microbiology Lab,Fr,15:20,false
+Microbiology Lab,Fr,15:20,true
 Microbiology Lab,Sa,15:20,false
 Microbiology Lab,Su,15:20,false
 Microbiology Lab,Mo,15:40,false
-Microbiology Lab,Tu,15:40,false
+Microbiology Lab,Tu,15:40,true
 Microbiology Lab,We,15:40,true
 Microbiology Lab,Th,15:40,true
-Microbiology Lab,Fr,15:40,false
+Microbiology Lab,Fr,15:40,true
 Microbiology Lab,Sa,15:40,false
 Microbiology Lab,Su,15:40,false
 MSI-ESW Lab (B-7),Mo,08:00,true
@@ -9956,42 +10124,42 @@ MSI-ESW Lab (B-7),Su,09:40,false
 MSI-ESW Lab (B-7),Mo,10:00,false
 MSI-ESW Lab (B-7),Tu,10:00,true
 MSI-ESW Lab (B-7),We,10:00,false
-MSI-ESW Lab (B-7),Th,10:00,false
+MSI-ESW Lab (B-7),Th,10:00,true
 MSI-ESW Lab (B-7),Fr,10:00,false
 MSI-ESW Lab (B-7),Sa,10:00,false
 MSI-ESW Lab (B-7),Su,10:00,false
 MSI-ESW Lab (B-7),Mo,10:20,false
 MSI-ESW Lab (B-7),Tu,10:20,true
 MSI-ESW Lab (B-7),We,10:20,false
-MSI-ESW Lab (B-7),Th,10:20,false
+MSI-ESW Lab (B-7),Th,10:20,true
 MSI-ESW Lab (B-7),Fr,10:20,false
 MSI-ESW Lab (B-7),Sa,10:20,false
 MSI-ESW Lab (B-7),Su,10:20,false
 MSI-ESW Lab (B-7),Mo,10:40,false
 MSI-ESW Lab (B-7),Tu,10:40,true
 MSI-ESW Lab (B-7),We,10:40,false
-MSI-ESW Lab (B-7),Th,10:40,false
+MSI-ESW Lab (B-7),Th,10:40,true
 MSI-ESW Lab (B-7),Fr,10:40,false
 MSI-ESW Lab (B-7),Sa,10:40,false
 MSI-ESW Lab (B-7),Su,10:40,false
 MSI-ESW Lab (B-7),Mo,11:00,false
 MSI-ESW Lab (B-7),Tu,11:00,false
 MSI-ESW Lab (B-7),We,11:00,true
-MSI-ESW Lab (B-7),Th,11:00,false
+MSI-ESW Lab (B-7),Th,11:00,true
 MSI-ESW Lab (B-7),Fr,11:00,true
 MSI-ESW Lab (B-7),Sa,11:00,false
 MSI-ESW Lab (B-7),Su,11:00,false
 MSI-ESW Lab (B-7),Mo,11:20,false
 MSI-ESW Lab (B-7),Tu,11:20,false
 MSI-ESW Lab (B-7),We,11:20,true
-MSI-ESW Lab (B-7),Th,11:20,false
+MSI-ESW Lab (B-7),Th,11:20,true
 MSI-ESW Lab (B-7),Fr,11:20,true
 MSI-ESW Lab (B-7),Sa,11:20,false
 MSI-ESW Lab (B-7),Su,11:20,false
 MSI-ESW Lab (B-7),Mo,11:40,false
 MSI-ESW Lab (B-7),Tu,11:40,false
 MSI-ESW Lab (B-7),We,11:40,true
-MSI-ESW Lab (B-7),Th,11:40,false
+MSI-ESW Lab (B-7),Th,11:40,true
 MSI-ESW Lab (B-7),Fr,11:40,true
 MSI-ESW Lab (B-7),Sa,11:40,false
 MSI-ESW Lab (B-7),Su,11:40,false
@@ -11617,28 +11785,28 @@ N-10,Tu,09:00,true
 N-10,We,09:00,true
 N-10,Th,09:00,true
 N-10,Fr,09:00,true
-N-10,Sa,09:00,false
+N-10,Sa,09:00,true
 N-10,Su,09:00,false
 N-10,Mo,09:20,true
 N-10,Tu,09:20,true
 N-10,We,09:20,true
 N-10,Th,09:20,true
 N-10,Fr,09:20,true
-N-10,Sa,09:20,false
+N-10,Sa,09:20,true
 N-10,Su,09:20,false
 N-10,Mo,09:40,true
 N-10,Tu,09:40,true
 N-10,We,09:40,true
 N-10,Th,09:40,true
 N-10,Fr,09:40,true
-N-10,Sa,09:40,false
+N-10,Sa,09:40,true
 N-10,Su,09:40,false
 N-10,Mo,10:00,true
 N-10,Tu,10:00,true
 N-10,We,10:00,true
 N-10,Th,10:00,true
 N-10,Fr,10:00,true
-N-10,Sa,10:00,false
+N-10,Sa,10:00,true
 N-10,Su,10:00,false
 N-10,Mo,10:20,true
 N-10,Tu,10:20,true
@@ -12935,678 +13103,342 @@ N-17,Th,15:40,false
 N-17,Fr,15:40,false
 N-17,Sa,15:40,false
 N-17,Su,15:40,false
-N-18-A,Mo,08:00,false
-N-18-A,Tu,08:00,true
-N-18-A,We,08:00,true
-N-18-A,Th,08:00,true
-N-18-A,Fr,08:00,false
-N-18-A,Sa,08:00,false
-N-18-A,Su,08:00,false
-N-18-A,Mo,08:20,false
-N-18-A,Tu,08:20,true
-N-18-A,We,08:20,true
-N-18-A,Th,08:20,true
-N-18-A,Fr,08:20,false
-N-18-A,Sa,08:20,false
-N-18-A,Su,08:20,false
-N-18-A,Mo,08:40,false
-N-18-A,Tu,08:40,true
-N-18-A,We,08:40,true
-N-18-A,Th,08:40,true
-N-18-A,Fr,08:40,false
-N-18-A,Sa,08:40,false
-N-18-A,Su,08:40,false
-N-18-A,Mo,09:00,false
-N-18-A,Tu,09:00,true
-N-18-A,We,09:00,false
-N-18-A,Th,09:00,true
-N-18-A,Fr,09:00,true
-N-18-A,Sa,09:00,false
-N-18-A,Su,09:00,false
-N-18-A,Mo,09:20,false
-N-18-A,Tu,09:20,true
-N-18-A,We,09:20,false
-N-18-A,Th,09:20,true
-N-18-A,Fr,09:20,true
-N-18-A,Sa,09:20,false
-N-18-A,Su,09:20,false
-N-18-A,Mo,09:40,false
-N-18-A,Tu,09:40,true
-N-18-A,We,09:40,true
-N-18-A,Th,09:40,true
-N-18-A,Fr,09:40,true
-N-18-A,Sa,09:40,false
-N-18-A,Su,09:40,false
-N-18-A,Mo,10:00,false
-N-18-A,Tu,10:00,true
-N-18-A,We,10:00,true
-N-18-A,Th,10:00,true
-N-18-A,Fr,10:00,true
-N-18-A,Sa,10:00,true
-N-18-A,Su,10:00,false
-N-18-A,Mo,10:20,false
-N-18-A,Tu,10:20,true
-N-18-A,We,10:20,true
-N-18-A,Th,10:20,true
-N-18-A,Fr,10:20,true
-N-18-A,Sa,10:20,true
-N-18-A,Su,10:20,false
-N-18-A,Mo,10:40,true
-N-18-A,Tu,10:40,true
-N-18-A,We,10:40,true
-N-18-A,Th,10:40,true
-N-18-A,Fr,10:40,true
-N-18-A,Sa,10:40,true
-N-18-A,Su,10:40,false
-N-18-A,Mo,11:00,true
-N-18-A,Tu,11:00,true
-N-18-A,We,11:00,true
-N-18-A,Th,11:00,true
-N-18-A,Fr,11:00,true
-N-18-A,Sa,11:00,true
-N-18-A,Su,11:00,false
-N-18-A,Mo,11:20,true
-N-18-A,Tu,11:20,true
-N-18-A,We,11:20,true
-N-18-A,Th,11:20,true
-N-18-A,Fr,11:20,true
-N-18-A,Sa,11:20,true
-N-18-A,Su,11:20,false
-N-18-A,Mo,11:40,true
-N-18-A,Tu,11:40,true
-N-18-A,We,11:40,true
-N-18-A,Th,11:40,true
-N-18-A,Fr,11:40,true
-N-18-A,Sa,11:40,true
-N-18-A,Su,11:40,false
-N-18-A,Mo,12:00,true
-N-18-A,Tu,12:00,true
-N-18-A,We,12:00,true
-N-18-A,Th,12:00,true
-N-18-A,Fr,12:00,true
-N-18-A,Sa,12:00,false
-N-18-A,Su,12:00,false
-N-18-A,Mo,12:20,true
-N-18-A,Tu,12:20,true
-N-18-A,We,12:20,true
-N-18-A,Th,12:20,true
-N-18-A,Fr,12:20,true
-N-18-A,Sa,12:20,false
-N-18-A,Su,12:20,false
-N-18-A,Mo,12:40,true
-N-18-A,Tu,12:40,true
-N-18-A,We,12:40,true
-N-18-A,Th,12:40,true
-N-18-A,Fr,12:40,true
-N-18-A,Sa,12:40,false
-N-18-A,Su,12:40,false
-N-18-A,Mo,13:00,true
-N-18-A,Tu,13:00,true
-N-18-A,We,13:00,true
-N-18-A,Th,13:00,true
-N-18-A,Fr,13:00,false
-N-18-A,Sa,13:00,false
-N-18-A,Su,13:00,false
-N-18-A,Mo,13:20,true
-N-18-A,Tu,13:20,true
-N-18-A,We,13:20,true
-N-18-A,Th,13:20,true
-N-18-A,Fr,13:20,false
-N-18-A,Sa,13:20,false
-N-18-A,Su,13:20,false
-N-18-A,Mo,13:40,true
-N-18-A,Tu,13:40,true
-N-18-A,We,13:40,true
-N-18-A,Th,13:40,true
-N-18-A,Fr,13:40,false
-N-18-A,Sa,13:40,false
-N-18-A,Su,13:40,false
-N-18-A,Mo,14:00,false
-N-18-A,Tu,14:00,false
-N-18-A,We,14:00,false
-N-18-A,Th,14:00,false
-N-18-A,Fr,14:00,false
-N-18-A,Sa,14:00,false
-N-18-A,Su,14:00,false
-N-18-A,Mo,14:20,false
-N-18-A,Tu,14:20,false
-N-18-A,We,14:20,false
-N-18-A,Th,14:20,false
-N-18-A,Fr,14:20,false
-N-18-A,Sa,14:20,false
-N-18-A,Su,14:20,false
-N-18-A,Mo,14:40,false
-N-18-A,Tu,14:40,false
-N-18-A,We,14:40,false
-N-18-A,Th,14:40,false
-N-18-A,Fr,14:40,false
-N-18-A,Sa,14:40,false
-N-18-A,Su,14:40,false
-N-18-A,Mo,15:00,false
-N-18-A,Tu,15:00,false
-N-18-A,We,15:00,false
-N-18-A,Th,15:00,false
-N-18-A,Fr,15:00,false
-N-18-A,Sa,15:00,false
-N-18-A,Su,15:00,false
-N-18-A,Mo,15:20,false
-N-18-A,Tu,15:20,false
-N-18-A,We,15:20,false
-N-18-A,Th,15:20,false
-N-18-A,Fr,15:20,false
-N-18-A,Sa,15:20,false
-N-18-A,Su,15:20,false
-N-18-A,Mo,15:40,false
-N-18-A,Tu,15:40,false
-N-18-A,We,15:40,false
-N-18-A,Th,15:40,false
-N-18-A,Fr,15:40,false
-N-18-A,Sa,15:40,false
-N-18-A,Su,15:40,false
-N-18-B,Mo,08:00,false
-N-18-B,Tu,08:00,true
-N-18-B,We,08:00,false
-N-18-B,Th,08:00,true
-N-18-B,Fr,08:00,false
-N-18-B,Sa,08:00,true
-N-18-B,Su,08:00,false
-N-18-B,Mo,08:20,false
-N-18-B,Tu,08:20,true
-N-18-B,We,08:20,false
-N-18-B,Th,08:20,true
-N-18-B,Fr,08:20,false
-N-18-B,Sa,08:20,true
-N-18-B,Su,08:20,false
-N-18-B,Mo,08:40,false
-N-18-B,Tu,08:40,true
-N-18-B,We,08:40,false
-N-18-B,Th,08:40,true
-N-18-B,Fr,08:40,false
-N-18-B,Sa,08:40,true
-N-18-B,Su,08:40,false
-N-18-B,Mo,09:00,false
-N-18-B,Tu,09:00,true
-N-18-B,We,09:00,true
-N-18-B,Th,09:00,true
-N-18-B,Fr,09:00,false
-N-18-B,Sa,09:00,true
-N-18-B,Su,09:00,false
-N-18-B,Mo,09:20,false
-N-18-B,Tu,09:20,true
-N-18-B,We,09:20,true
-N-18-B,Th,09:20,true
-N-18-B,Fr,09:20,false
-N-18-B,Sa,09:20,true
-N-18-B,Su,09:20,false
-N-18-B,Mo,09:40,false
-N-18-B,Tu,09:40,true
-N-18-B,We,09:40,true
-N-18-B,Th,09:40,true
-N-18-B,Fr,09:40,false
-N-18-B,Sa,09:40,true
-N-18-B,Su,09:40,false
-N-18-B,Mo,10:00,true
-N-18-B,Tu,10:00,true
-N-18-B,We,10:00,true
-N-18-B,Th,10:00,false
-N-18-B,Fr,10:00,false
-N-18-B,Sa,10:00,true
-N-18-B,Su,10:00,false
-N-18-B,Mo,10:20,true
-N-18-B,Tu,10:20,true
-N-18-B,We,10:20,true
-N-18-B,Th,10:20,false
-N-18-B,Fr,10:20,false
-N-18-B,Sa,10:20,true
-N-18-B,Su,10:20,false
-N-18-B,Mo,10:40,true
-N-18-B,Tu,10:40,true
-N-18-B,We,10:40,true
-N-18-B,Th,10:40,false
-N-18-B,Fr,10:40,false
-N-18-B,Sa,10:40,true
-N-18-B,Su,10:40,false
-N-18-B,Mo,11:00,true
-N-18-B,Tu,11:00,true
-N-18-B,We,11:00,true
-N-18-B,Th,11:00,true
-N-18-B,Fr,11:00,true
-N-18-B,Sa,11:00,true
-N-18-B,Su,11:00,false
-N-18-B,Mo,11:20,true
-N-18-B,Tu,11:20,true
-N-18-B,We,11:20,true
-N-18-B,Th,11:20,true
-N-18-B,Fr,11:20,true
-N-18-B,Sa,11:20,true
-N-18-B,Su,11:20,false
-N-18-B,Mo,11:40,true
-N-18-B,Tu,11:40,true
-N-18-B,We,11:40,true
-N-18-B,Th,11:40,true
-N-18-B,Fr,11:40,true
-N-18-B,Sa,11:40,true
-N-18-B,Su,11:40,false
-N-18-B,Mo,12:00,true
-N-18-B,Tu,12:00,true
-N-18-B,We,12:00,true
-N-18-B,Th,12:00,true
-N-18-B,Fr,12:00,true
-N-18-B,Sa,12:00,false
-N-18-B,Su,12:00,false
-N-18-B,Mo,12:20,true
-N-18-B,Tu,12:20,true
-N-18-B,We,12:20,true
-N-18-B,Th,12:20,true
-N-18-B,Fr,12:20,true
-N-18-B,Sa,12:20,false
-N-18-B,Su,12:20,false
-N-18-B,Mo,12:40,true
-N-18-B,Tu,12:40,true
-N-18-B,We,12:40,true
-N-18-B,Th,12:40,true
-N-18-B,Fr,12:40,true
-N-18-B,Sa,12:40,false
-N-18-B,Su,12:40,false
-N-18-B,Mo,13:00,true
-N-18-B,Tu,13:00,true
-N-18-B,We,13:00,true
-N-18-B,Th,13:00,true
-N-18-B,Fr,13:00,false
-N-18-B,Sa,13:00,false
-N-18-B,Su,13:00,false
-N-18-B,Mo,13:20,true
-N-18-B,Tu,13:20,true
-N-18-B,We,13:20,true
-N-18-B,Th,13:20,true
-N-18-B,Fr,13:20,false
-N-18-B,Sa,13:20,false
-N-18-B,Su,13:20,false
-N-18-B,Mo,13:40,true
-N-18-B,Tu,13:40,true
-N-18-B,We,13:40,true
-N-18-B,Th,13:40,true
-N-18-B,Fr,13:40,false
-N-18-B,Sa,13:40,false
-N-18-B,Su,13:40,false
-N-18-B,Mo,14:00,false
-N-18-B,Tu,14:00,false
-N-18-B,We,14:00,false
-N-18-B,Th,14:00,false
-N-18-B,Fr,14:00,false
-N-18-B,Sa,14:00,false
-N-18-B,Su,14:00,false
-N-18-B,Mo,14:20,false
-N-18-B,Tu,14:20,false
-N-18-B,We,14:20,false
-N-18-B,Th,14:20,false
-N-18-B,Fr,14:20,false
-N-18-B,Sa,14:20,false
-N-18-B,Su,14:20,false
-N-18-B,Mo,14:40,false
-N-18-B,Tu,14:40,false
-N-18-B,We,14:40,false
-N-18-B,Th,14:40,false
-N-18-B,Fr,14:40,false
-N-18-B,Sa,14:40,false
-N-18-B,Su,14:40,false
-N-18-B,Mo,15:00,false
-N-18-B,Tu,15:00,false
-N-18-B,We,15:00,false
-N-18-B,Th,15:00,false
-N-18-B,Fr,15:00,false
-N-18-B,Sa,15:00,false
-N-18-B,Su,15:00,false
-N-18-B,Mo,15:20,false
-N-18-B,Tu,15:20,false
-N-18-B,We,15:20,false
-N-18-B,Th,15:20,false
-N-18-B,Fr,15:20,false
-N-18-B,Sa,15:20,false
-N-18-B,Su,15:20,false
-N-18-B,Mo,15:40,false
-N-18-B,Tu,15:40,false
-N-18-B,We,15:40,false
-N-18-B,Th,15:40,false
-N-18-B,Fr,15:40,false
-N-18-B,Sa,15:40,false
-N-18-B,Su,15:40,false
-N-19-A,Mo,08:00,false
-N-19-A,Tu,08:00,true
-N-19-A,We,08:00,true
-N-19-A,Th,08:00,true
-N-19-A,Fr,08:00,true
-N-19-A,Sa,08:00,false
-N-19-A,Su,08:00,false
-N-19-A,Mo,08:20,false
-N-19-A,Tu,08:20,true
-N-19-A,We,08:20,true
-N-19-A,Th,08:20,true
-N-19-A,Fr,08:20,true
-N-19-A,Sa,08:20,false
-N-19-A,Su,08:20,false
-N-19-A,Mo,08:40,false
-N-19-A,Tu,08:40,true
-N-19-A,We,08:40,true
-N-19-A,Th,08:40,true
-N-19-A,Fr,08:40,true
-N-19-A,Sa,08:40,false
-N-19-A,Su,08:40,false
-N-19-A,Mo,09:00,false
-N-19-A,Tu,09:00,false
-N-19-A,We,09:00,true
-N-19-A,Th,09:00,true
-N-19-A,Fr,09:00,false
-N-19-A,Sa,09:00,false
-N-19-A,Su,09:00,false
-N-19-A,Mo,09:20,false
-N-19-A,Tu,09:20,false
-N-19-A,We,09:20,true
-N-19-A,Th,09:20,true
-N-19-A,Fr,09:20,false
-N-19-A,Sa,09:20,false
-N-19-A,Su,09:20,false
-N-19-A,Mo,09:40,true
-N-19-A,Tu,09:40,false
-N-19-A,We,09:40,true
-N-19-A,Th,09:40,true
-N-19-A,Fr,09:40,false
-N-19-A,Sa,09:40,true
-N-19-A,Su,09:40,false
-N-19-A,Mo,10:00,true
-N-19-A,Tu,10:00,true
-N-19-A,We,10:00,true
-N-19-A,Th,10:00,true
-N-19-A,Fr,10:00,true
-N-19-A,Sa,10:00,true
-N-19-A,Su,10:00,false
-N-19-A,Mo,10:20,true
-N-19-A,Tu,10:20,true
-N-19-A,We,10:20,true
-N-19-A,Th,10:20,true
-N-19-A,Fr,10:20,true
-N-19-A,Sa,10:20,true
-N-19-A,Su,10:20,false
-N-19-A,Mo,10:40,false
-N-19-A,Tu,10:40,true
-N-19-A,We,10:40,true
-N-19-A,Th,10:40,true
-N-19-A,Fr,10:40,true
-N-19-A,Sa,10:40,true
-N-19-A,Su,10:40,false
-N-19-A,Mo,11:00,false
-N-19-A,Tu,11:00,true
-N-19-A,We,11:00,false
-N-19-A,Th,11:00,true
-N-19-A,Fr,11:00,true
-N-19-A,Sa,11:00,false
-N-19-A,Su,11:00,false
-N-19-A,Mo,11:20,false
-N-19-A,Tu,11:20,true
-N-19-A,We,11:20,false
-N-19-A,Th,11:20,true
-N-19-A,Fr,11:20,true
-N-19-A,Sa,11:20,false
-N-19-A,Su,11:20,false
-N-19-A,Mo,11:40,false
-N-19-A,Tu,11:40,true
-N-19-A,We,11:40,false
-N-19-A,Th,11:40,true
-N-19-A,Fr,11:40,true
-N-19-A,Sa,11:40,false
-N-19-A,Su,11:40,false
-N-19-A,Mo,12:00,true
-N-19-A,Tu,12:00,true
-N-19-A,We,12:00,true
-N-19-A,Th,12:00,true
-N-19-A,Fr,12:00,true
-N-19-A,Sa,12:00,false
-N-19-A,Su,12:00,false
-N-19-A,Mo,12:20,true
-N-19-A,Tu,12:20,true
-N-19-A,We,12:20,true
-N-19-A,Th,12:20,true
-N-19-A,Fr,12:20,true
-N-19-A,Sa,12:20,false
-N-19-A,Su,12:20,false
-N-19-A,Mo,12:40,true
-N-19-A,Tu,12:40,true
-N-19-A,We,12:40,true
-N-19-A,Th,12:40,true
-N-19-A,Fr,12:40,true
-N-19-A,Sa,12:40,false
-N-19-A,Su,12:40,false
-N-19-A,Mo,13:00,true
-N-19-A,Tu,13:00,true
-N-19-A,We,13:00,true
-N-19-A,Th,13:00,true
-N-19-A,Fr,13:00,false
-N-19-A,Sa,13:00,false
-N-19-A,Su,13:00,false
-N-19-A,Mo,13:20,true
-N-19-A,Tu,13:20,true
-N-19-A,We,13:20,true
-N-19-A,Th,13:20,true
-N-19-A,Fr,13:20,false
-N-19-A,Sa,13:20,false
-N-19-A,Su,13:20,false
-N-19-A,Mo,13:40,true
-N-19-A,Tu,13:40,true
-N-19-A,We,13:40,true
-N-19-A,Th,13:40,true
-N-19-A,Fr,13:40,false
-N-19-A,Sa,13:40,false
-N-19-A,Su,13:40,false
-N-19-A,Mo,14:00,false
-N-19-A,Tu,14:00,false
-N-19-A,We,14:00,false
-N-19-A,Th,14:00,false
-N-19-A,Fr,14:00,false
-N-19-A,Sa,14:00,false
-N-19-A,Su,14:00,false
-N-19-A,Mo,14:20,false
-N-19-A,Tu,14:20,false
-N-19-A,We,14:20,false
-N-19-A,Th,14:20,false
-N-19-A,Fr,14:20,false
-N-19-A,Sa,14:20,false
-N-19-A,Su,14:20,false
-N-19-A,Mo,14:40,false
-N-19-A,Tu,14:40,false
-N-19-A,We,14:40,false
-N-19-A,Th,14:40,false
-N-19-A,Fr,14:40,false
-N-19-A,Sa,14:40,false
-N-19-A,Su,14:40,false
-N-19-A,Mo,15:00,false
-N-19-A,Tu,15:00,false
-N-19-A,We,15:00,false
-N-19-A,Th,15:00,false
-N-19-A,Fr,15:00,false
-N-19-A,Sa,15:00,false
-N-19-A,Su,15:00,false
-N-19-A,Mo,15:20,false
-N-19-A,Tu,15:20,false
-N-19-A,We,15:20,false
-N-19-A,Th,15:20,false
-N-19-A,Fr,15:20,false
-N-19-A,Sa,15:20,false
-N-19-A,Su,15:20,false
-N-19-A,Mo,15:40,false
-N-19-A,Tu,15:40,false
-N-19-A,We,15:40,false
-N-19-A,Th,15:40,false
-N-19-A,Fr,15:40,false
-N-19-A,Sa,15:40,false
-N-19-A,Su,15:40,false
-N-19-B,Mo,08:00,false
-N-19-B,Tu,08:00,true
-N-19-B,We,08:00,false
-N-19-B,Th,08:00,false
-N-19-B,Fr,08:00,false
-N-19-B,Sa,08:00,false
-N-19-B,Su,08:00,false
-N-19-B,Mo,08:20,false
-N-19-B,Tu,08:20,true
-N-19-B,We,08:20,false
-N-19-B,Th,08:20,false
-N-19-B,Fr,08:20,false
-N-19-B,Sa,08:20,false
-N-19-B,Su,08:20,false
-N-19-B,Mo,08:40,false
-N-19-B,Tu,08:40,true
-N-19-B,We,08:40,false
-N-19-B,Th,08:40,false
-N-19-B,Fr,08:40,false
-N-19-B,Sa,08:40,false
-N-19-B,Su,08:40,false
-N-19-B,Mo,09:00,false
-N-19-B,Tu,09:00,true
-N-19-B,We,09:00,true
-N-19-B,Th,09:00,false
-N-19-B,Fr,09:00,false
-N-19-B,Sa,09:00,false
-N-19-B,Su,09:00,false
-N-19-B,Mo,09:20,false
-N-19-B,Tu,09:20,true
-N-19-B,We,09:20,true
-N-19-B,Th,09:20,false
-N-19-B,Fr,09:20,false
-N-19-B,Sa,09:20,false
-N-19-B,Su,09:20,false
-N-19-B,Mo,09:40,false
-N-19-B,Tu,09:40,true
-N-19-B,We,09:40,true
-N-19-B,Th,09:40,false
-N-19-B,Fr,09:40,false
-N-19-B,Sa,09:40,true
-N-19-B,Su,09:40,false
-N-19-B,Mo,10:00,false
-N-19-B,Tu,10:00,true
-N-19-B,We,10:00,true
-N-19-B,Th,10:00,true
-N-19-B,Fr,10:00,true
-N-19-B,Sa,10:00,true
-N-19-B,Su,10:00,false
-N-19-B,Mo,10:20,true
-N-19-B,Tu,10:20,true
-N-19-B,We,10:20,true
-N-19-B,Th,10:20,true
-N-19-B,Fr,10:20,true
-N-19-B,Sa,10:20,true
-N-19-B,Su,10:20,false
-N-19-B,Mo,10:40,true
-N-19-B,Tu,10:40,true
-N-19-B,We,10:40,true
-N-19-B,Th,10:40,true
-N-19-B,Fr,10:40,true
-N-19-B,Sa,10:40,true
-N-19-B,Su,10:40,false
-N-19-B,Mo,11:00,true
-N-19-B,Tu,11:00,false
-N-19-B,We,11:00,true
-N-19-B,Th,11:00,true
-N-19-B,Fr,11:00,true
-N-19-B,Sa,11:00,false
-N-19-B,Su,11:00,false
-N-19-B,Mo,11:20,false
-N-19-B,Tu,11:20,false
-N-19-B,We,11:20,true
-N-19-B,Th,11:20,true
-N-19-B,Fr,11:20,true
-N-19-B,Sa,11:20,false
-N-19-B,Su,11:20,false
-N-19-B,Mo,11:40,false
-N-19-B,Tu,11:40,false
-N-19-B,We,11:40,true
-N-19-B,Th,11:40,true
-N-19-B,Fr,11:40,true
-N-19-B,Sa,11:40,false
-N-19-B,Su,11:40,false
-N-19-B,Mo,12:00,true
-N-19-B,Tu,12:00,true
-N-19-B,We,12:00,true
-N-19-B,Th,12:00,true
-N-19-B,Fr,12:00,true
-N-19-B,Sa,12:00,false
-N-19-B,Su,12:00,false
-N-19-B,Mo,12:20,true
-N-19-B,Tu,12:20,true
-N-19-B,We,12:20,true
-N-19-B,Th,12:20,true
-N-19-B,Fr,12:20,true
-N-19-B,Sa,12:20,false
-N-19-B,Su,12:20,false
-N-19-B,Mo,12:40,true
-N-19-B,Tu,12:40,true
-N-19-B,We,12:40,true
-N-19-B,Th,12:40,true
-N-19-B,Fr,12:40,true
-N-19-B,Sa,12:40,false
-N-19-B,Su,12:40,false
-N-19-B,Mo,13:00,true
-N-19-B,Tu,13:00,true
-N-19-B,We,13:00,true
-N-19-B,Th,13:00,false
-N-19-B,Fr,13:00,false
-N-19-B,Sa,13:00,false
-N-19-B,Su,13:00,false
-N-19-B,Mo,13:20,true
-N-19-B,Tu,13:20,true
-N-19-B,We,13:20,true
-N-19-B,Th,13:20,false
-N-19-B,Fr,13:20,false
-N-19-B,Sa,13:20,false
-N-19-B,Su,13:20,false
-N-19-B,Mo,13:40,true
-N-19-B,Tu,13:40,true
-N-19-B,We,13:40,true
-N-19-B,Th,13:40,false
-N-19-B,Fr,13:40,false
-N-19-B,Sa,13:40,false
-N-19-B,Su,13:40,false
-N-19-B,Mo,14:00,false
-N-19-B,Tu,14:00,false
-N-19-B,We,14:00,false
-N-19-B,Th,14:00,false
-N-19-B,Fr,14:00,false
-N-19-B,Sa,14:00,false
-N-19-B,Su,14:00,false
-N-19-B,Mo,14:20,false
-N-19-B,Tu,14:20,false
-N-19-B,We,14:20,false
-N-19-B,Th,14:20,false
-N-19-B,Fr,14:20,false
-N-19-B,Sa,14:20,false
-N-19-B,Su,14:20,false
-N-19-B,Mo,14:40,false
-N-19-B,Tu,14:40,false
-N-19-B,We,14:40,false
-N-19-B,Th,14:40,false
-N-19-B,Fr,14:40,false
-N-19-B,Sa,14:40,false
-N-19-B,Su,14:40,false
-N-19-B,Mo,15:00,false
-N-19-B,Tu,15:00,false
-N-19-B,We,15:00,false
-N-19-B,Th,15:00,false
-N-19-B,Fr,15:00,false
-N-19-B,Sa,15:00,false
-N-19-B,Su,15:00,false
-N-19-B,Mo,15:20,false
-N-19-B,Tu,15:20,false
-N-19-B,We,15:20,false
-N-19-B,Th,15:20,false
-N-19-B,Fr,15:20,false
-N-19-B,Sa,15:20,false
-N-19-B,Su,15:20,false
-N-19-B,Mo,15:40,false
-N-19-B,Tu,15:40,false
-N-19-B,We,15:40,false
-N-19-B,Th,15:40,false
-N-19-B,Fr,15:40,false
-N-19-B,Sa,15:40,false
-N-19-B,Su,15:40,false
+N-18,Mo,08:00,false
+N-18,Tu,08:00,true
+N-18,We,08:00,true
+N-18,Th,08:00,true
+N-18,Fr,08:00,false
+N-18,Sa,08:00,true
+N-18,Su,08:00,false
+N-18,Mo,08:20,false
+N-18,Tu,08:20,true
+N-18,We,08:20,true
+N-18,Th,08:20,true
+N-18,Fr,08:20,false
+N-18,Sa,08:20,true
+N-18,Su,08:20,false
+N-18,Mo,08:40,false
+N-18,Tu,08:40,true
+N-18,We,08:40,true
+N-18,Th,08:40,true
+N-18,Fr,08:40,false
+N-18,Sa,08:40,true
+N-18,Su,08:40,false
+N-18,Mo,09:00,false
+N-18,Tu,09:00,true
+N-18,We,09:00,true
+N-18,Th,09:00,true
+N-18,Fr,09:00,true
+N-18,Sa,09:00,true
+N-18,Su,09:00,false
+N-18,Mo,09:20,false
+N-18,Tu,09:20,true
+N-18,We,09:20,true
+N-18,Th,09:20,true
+N-18,Fr,09:20,true
+N-18,Sa,09:20,true
+N-18,Su,09:20,false
+N-18,Mo,09:40,false
+N-18,Tu,09:40,true
+N-18,We,09:40,true
+N-18,Th,09:40,true
+N-18,Fr,09:40,true
+N-18,Sa,09:40,true
+N-18,Su,09:40,false
+N-18,Mo,10:00,true
+N-18,Tu,10:00,true
+N-18,We,10:00,true
+N-18,Th,10:00,true
+N-18,Fr,10:00,true
+N-18,Sa,10:00,true
+N-18,Su,10:00,false
+N-18,Mo,10:20,true
+N-18,Tu,10:20,true
+N-18,We,10:20,true
+N-18,Th,10:20,true
+N-18,Fr,10:20,true
+N-18,Sa,10:20,true
+N-18,Su,10:20,false
+N-18,Mo,10:40,true
+N-18,Tu,10:40,true
+N-18,We,10:40,true
+N-18,Th,10:40,true
+N-18,Fr,10:40,true
+N-18,Sa,10:40,true
+N-18,Su,10:40,false
+N-18,Mo,11:00,true
+N-18,Tu,11:00,true
+N-18,We,11:00,true
+N-18,Th,11:00,true
+N-18,Fr,11:00,true
+N-18,Sa,11:00,true
+N-18,Su,11:00,false
+N-18,Mo,11:20,true
+N-18,Tu,11:20,true
+N-18,We,11:20,true
+N-18,Th,11:20,true
+N-18,Fr,11:20,true
+N-18,Sa,11:20,true
+N-18,Su,11:20,false
+N-18,Mo,11:40,true
+N-18,Tu,11:40,true
+N-18,We,11:40,true
+N-18,Th,11:40,true
+N-18,Fr,11:40,true
+N-18,Sa,11:40,true
+N-18,Su,11:40,false
+N-18,Mo,12:00,true
+N-18,Tu,12:00,true
+N-18,We,12:00,true
+N-18,Th,12:00,true
+N-18,Fr,12:00,true
+N-18,Sa,12:00,false
+N-18,Su,12:00,false
+N-18,Mo,12:20,true
+N-18,Tu,12:20,true
+N-18,We,12:20,true
+N-18,Th,12:20,true
+N-18,Fr,12:20,true
+N-18,Sa,12:20,false
+N-18,Su,12:20,false
+N-18,Mo,12:40,true
+N-18,Tu,12:40,true
+N-18,We,12:40,true
+N-18,Th,12:40,true
+N-18,Fr,12:40,true
+N-18,Sa,12:40,false
+N-18,Su,12:40,false
+N-18,Mo,13:00,true
+N-18,Tu,13:00,true
+N-18,We,13:00,true
+N-18,Th,13:00,true
+N-18,Fr,13:00,false
+N-18,Sa,13:00,false
+N-18,Su,13:00,false
+N-18,Mo,13:20,true
+N-18,Tu,13:20,true
+N-18,We,13:20,true
+N-18,Th,13:20,true
+N-18,Fr,13:20,false
+N-18,Sa,13:20,false
+N-18,Su,13:20,false
+N-18,Mo,13:40,true
+N-18,Tu,13:40,true
+N-18,We,13:40,true
+N-18,Th,13:40,true
+N-18,Fr,13:40,false
+N-18,Sa,13:40,false
+N-18,Su,13:40,false
+N-18,Mo,14:00,false
+N-18,Tu,14:00,false
+N-18,We,14:00,false
+N-18,Th,14:00,false
+N-18,Fr,14:00,false
+N-18,Sa,14:00,false
+N-18,Su,14:00,false
+N-18,Mo,14:20,false
+N-18,Tu,14:20,false
+N-18,We,14:20,false
+N-18,Th,14:20,false
+N-18,Fr,14:20,false
+N-18,Sa,14:20,false
+N-18,Su,14:20,false
+N-18,Mo,14:40,false
+N-18,Tu,14:40,false
+N-18,We,14:40,false
+N-18,Th,14:40,false
+N-18,Fr,14:40,false
+N-18,Sa,14:40,false
+N-18,Su,14:40,false
+N-18,Mo,15:00,false
+N-18,Tu,15:00,false
+N-18,We,15:00,false
+N-18,Th,15:00,false
+N-18,Fr,15:00,false
+N-18,Sa,15:00,false
+N-18,Su,15:00,false
+N-18,Mo,15:20,false
+N-18,Tu,15:20,false
+N-18,We,15:20,false
+N-18,Th,15:20,false
+N-18,Fr,15:20,false
+N-18,Sa,15:20,false
+N-18,Su,15:20,false
+N-18,Mo,15:40,false
+N-18,Tu,15:40,false
+N-18,We,15:40,false
+N-18,Th,15:40,false
+N-18,Fr,15:40,false
+N-18,Sa,15:40,false
+N-18,Su,15:40,false
+N-19,Mo,08:00,false
+N-19,Tu,08:00,true
+N-19,We,08:00,true
+N-19,Th,08:00,true
+N-19,Fr,08:00,true
+N-19,Sa,08:00,false
+N-19,Su,08:00,false
+N-19,Mo,08:20,false
+N-19,Tu,08:20,true
+N-19,We,08:20,true
+N-19,Th,08:20,true
+N-19,Fr,08:20,true
+N-19,Sa,08:20,false
+N-19,Su,08:20,false
+N-19,Mo,08:40,false
+N-19,Tu,08:40,true
+N-19,We,08:40,true
+N-19,Th,08:40,true
+N-19,Fr,08:40,true
+N-19,Sa,08:40,false
+N-19,Su,08:40,false
+N-19,Mo,09:00,false
+N-19,Tu,09:00,true
+N-19,We,09:00,true
+N-19,Th,09:00,true
+N-19,Fr,09:00,false
+N-19,Sa,09:00,false
+N-19,Su,09:00,false
+N-19,Mo,09:20,false
+N-19,Tu,09:20,true
+N-19,We,09:20,true
+N-19,Th,09:20,true
+N-19,Fr,09:20,false
+N-19,Sa,09:20,false
+N-19,Su,09:20,false
+N-19,Mo,09:40,true
+N-19,Tu,09:40,true
+N-19,We,09:40,true
+N-19,Th,09:40,true
+N-19,Fr,09:40,false
+N-19,Sa,09:40,true
+N-19,Su,09:40,false
+N-19,Mo,10:00,true
+N-19,Tu,10:00,true
+N-19,We,10:00,true
+N-19,Th,10:00,true
+N-19,Fr,10:00,true
+N-19,Sa,10:00,true
+N-19,Su,10:00,false
+N-19,Mo,10:20,true
+N-19,Tu,10:20,true
+N-19,We,10:20,true
+N-19,Th,10:20,true
+N-19,Fr,10:20,true
+N-19,Sa,10:20,true
+N-19,Su,10:20,false
+N-19,Mo,10:40,true
+N-19,Tu,10:40,true
+N-19,We,10:40,true
+N-19,Th,10:40,true
+N-19,Fr,10:40,true
+N-19,Sa,10:40,true
+N-19,Su,10:40,false
+N-19,Mo,11:00,true
+N-19,Tu,11:00,true
+N-19,We,11:00,true
+N-19,Th,11:00,true
+N-19,Fr,11:00,true
+N-19,Sa,11:00,false
+N-19,Su,11:00,false
+N-19,Mo,11:20,true
+N-19,Tu,11:20,true
+N-19,We,11:20,true
+N-19,Th,11:20,true
+N-19,Fr,11:20,true
+N-19,Sa,11:20,false
+N-19,Su,11:20,false
+N-19,Mo,11:40,true
+N-19,Tu,11:40,true
+N-19,We,11:40,true
+N-19,Th,11:40,true
+N-19,Fr,11:40,true
+N-19,Sa,11:40,false
+N-19,Su,11:40,false
+N-19,Mo,12:00,true
+N-19,Tu,12:00,true
+N-19,We,12:00,true
+N-19,Th,12:00,true
+N-19,Fr,12:00,true
+N-19,Sa,12:00,false
+N-19,Su,12:00,false
+N-19,Mo,12:20,true
+N-19,Tu,12:20,true
+N-19,We,12:20,true
+N-19,Th,12:20,true
+N-19,Fr,12:20,true
+N-19,Sa,12:20,false
+N-19,Su,12:20,false
+N-19,Mo,12:40,true
+N-19,Tu,12:40,true
+N-19,We,12:40,true
+N-19,Th,12:40,true
+N-19,Fr,12:40,true
+N-19,Sa,12:40,false
+N-19,Su,12:40,false
+N-19,Mo,13:00,true
+N-19,Tu,13:00,true
+N-19,We,13:00,true
+N-19,Th,13:00,true
+N-19,Fr,13:00,false
+N-19,Sa,13:00,false
+N-19,Su,13:00,false
+N-19,Mo,13:20,true
+N-19,Tu,13:20,true
+N-19,We,13:20,true
+N-19,Th,13:20,true
+N-19,Fr,13:20,false
+N-19,Sa,13:20,false
+N-19,Su,13:20,false
+N-19,Mo,13:40,true
+N-19,Tu,13:40,true
+N-19,We,13:40,true
+N-19,Th,13:40,true
+N-19,Fr,13:40,false
+N-19,Sa,13:40,false
+N-19,Su,13:40,false
+N-19,Mo,14:00,false
+N-19,Tu,14:00,false
+N-19,We,14:00,false
+N-19,Th,14:00,false
+N-19,Fr,14:00,false
+N-19,Sa,14:00,false
+N-19,Su,14:00,false
+N-19,Mo,14:20,false
+N-19,Tu,14:20,false
+N-19,We,14:20,false
+N-19,Th,14:20,false
+N-19,Fr,14:20,false
+N-19,Sa,14:20,false
+N-19,Su,14:20,false
+N-19,Mo,14:40,false
+N-19,Tu,14:40,false
+N-19,We,14:40,false
+N-19,Th,14:40,false
+N-19,Fr,14:40,false
+N-19,Sa,14:40,false
+N-19,Su,14:40,false
+N-19,Mo,15:00,false
+N-19,Tu,15:00,false
+N-19,We,15:00,false
+N-19,Th,15:00,false
+N-19,Fr,15:00,false
+N-19,Sa,15:00,false
+N-19,Su,15:00,false
+N-19,Mo,15:20,false
+N-19,Tu,15:20,false
+N-19,We,15:20,false
+N-19,Th,15:20,false
+N-19,Fr,15:20,false
+N-19,Sa,15:20,false
+N-19,Su,15:20,false
+N-19,Mo,15:40,false
+N-19,Tu,15:40,false
+N-19,We,15:40,false
+N-19,Th,15:40,false
+N-19,Fr,15:40,false
+N-19,Sa,15:40,false
+N-19,Su,15:40,false
 N-21,Mo,08:00,true
 N-21,Tu,08:00,true
 N-21,We,08:00,true
@@ -14279,342 +14111,174 @@ N-24,Th,15:40,false
 N-24,Fr,15:40,false
 N-24,Sa,15:40,false
 N-24,Su,15:40,false
-N-25-A,Mo,08:00,true
-N-25-A,Tu,08:00,true
-N-25-A,We,08:00,true
-N-25-A,Th,08:00,true
-N-25-A,Fr,08:00,true
-N-25-A,Sa,08:00,true
-N-25-A,Su,08:00,false
-N-25-A,Mo,08:20,true
-N-25-A,Tu,08:20,true
-N-25-A,We,08:20,true
-N-25-A,Th,08:20,true
-N-25-A,Fr,08:20,true
-N-25-A,Sa,08:20,true
-N-25-A,Su,08:20,false
-N-25-A,Mo,08:40,true
-N-25-A,Tu,08:40,true
-N-25-A,We,08:40,true
-N-25-A,Th,08:40,true
-N-25-A,Fr,08:40,true
-N-25-A,Sa,08:40,true
-N-25-A,Su,08:40,false
-N-25-A,Mo,09:00,true
-N-25-A,Tu,09:00,true
-N-25-A,We,09:00,true
-N-25-A,Th,09:00,true
-N-25-A,Fr,09:00,true
-N-25-A,Sa,09:00,true
-N-25-A,Su,09:00,false
-N-25-A,Mo,09:20,true
-N-25-A,Tu,09:20,true
-N-25-A,We,09:20,true
-N-25-A,Th,09:20,true
-N-25-A,Fr,09:20,true
-N-25-A,Sa,09:20,false
-N-25-A,Su,09:20,false
-N-25-A,Mo,09:40,true
-N-25-A,Tu,09:40,true
-N-25-A,We,09:40,true
-N-25-A,Th,09:40,true
-N-25-A,Fr,09:40,true
-N-25-A,Sa,09:40,true
-N-25-A,Su,09:40,false
-N-25-A,Mo,10:00,true
-N-25-A,Tu,10:00,true
-N-25-A,We,10:00,true
-N-25-A,Th,10:00,true
-N-25-A,Fr,10:00,true
-N-25-A,Sa,10:00,true
-N-25-A,Su,10:00,false
-N-25-A,Mo,10:20,true
-N-25-A,Tu,10:20,true
-N-25-A,We,10:20,true
-N-25-A,Th,10:20,true
-N-25-A,Fr,10:20,true
-N-25-A,Sa,10:20,true
-N-25-A,Su,10:20,false
-N-25-A,Mo,10:40,true
-N-25-A,Tu,10:40,true
-N-25-A,We,10:40,true
-N-25-A,Th,10:40,true
-N-25-A,Fr,10:40,true
-N-25-A,Sa,10:40,true
-N-25-A,Su,10:40,false
-N-25-A,Mo,11:00,true
-N-25-A,Tu,11:00,true
-N-25-A,We,11:00,true
-N-25-A,Th,11:00,true
-N-25-A,Fr,11:00,true
-N-25-A,Sa,11:00,true
-N-25-A,Su,11:00,false
-N-25-A,Mo,11:20,true
-N-25-A,Tu,11:20,true
-N-25-A,We,11:20,true
-N-25-A,Th,11:20,true
-N-25-A,Fr,11:20,true
-N-25-A,Sa,11:20,true
-N-25-A,Su,11:20,false
-N-25-A,Mo,11:40,true
-N-25-A,Tu,11:40,true
-N-25-A,We,11:40,true
-N-25-A,Th,11:40,true
-N-25-A,Fr,11:40,true
-N-25-A,Sa,11:40,true
-N-25-A,Su,11:40,false
-N-25-A,Mo,12:00,true
-N-25-A,Tu,12:00,true
-N-25-A,We,12:00,true
-N-25-A,Th,12:00,true
-N-25-A,Fr,12:00,true
-N-25-A,Sa,12:00,false
-N-25-A,Su,12:00,false
-N-25-A,Mo,12:20,true
-N-25-A,Tu,12:20,true
-N-25-A,We,12:20,true
-N-25-A,Th,12:20,true
-N-25-A,Fr,12:20,false
-N-25-A,Sa,12:20,false
-N-25-A,Su,12:20,false
-N-25-A,Mo,12:40,true
-N-25-A,Tu,12:40,true
-N-25-A,We,12:40,true
-N-25-A,Th,12:40,true
-N-25-A,Fr,12:40,false
-N-25-A,Sa,12:40,false
-N-25-A,Su,12:40,false
-N-25-A,Mo,13:00,true
-N-25-A,Tu,13:00,true
-N-25-A,We,13:00,false
-N-25-A,Th,13:00,true
-N-25-A,Fr,13:00,false
-N-25-A,Sa,13:00,true
-N-25-A,Su,13:00,false
-N-25-A,Mo,13:20,true
-N-25-A,Tu,13:20,true
-N-25-A,We,13:20,false
-N-25-A,Th,13:20,false
-N-25-A,Fr,13:20,false
-N-25-A,Sa,13:20,true
-N-25-A,Su,13:20,false
-N-25-A,Mo,13:40,true
-N-25-A,Tu,13:40,true
-N-25-A,We,13:40,false
-N-25-A,Th,13:40,false
-N-25-A,Fr,13:40,false
-N-25-A,Sa,13:40,true
-N-25-A,Su,13:40,false
-N-25-A,Mo,14:00,false
-N-25-A,Tu,14:00,false
-N-25-A,We,14:00,false
-N-25-A,Th,14:00,false
-N-25-A,Fr,14:00,false
-N-25-A,Sa,14:00,false
-N-25-A,Su,14:00,false
-N-25-A,Mo,14:20,false
-N-25-A,Tu,14:20,false
-N-25-A,We,14:20,false
-N-25-A,Th,14:20,false
-N-25-A,Fr,14:20,false
-N-25-A,Sa,14:20,false
-N-25-A,Su,14:20,false
-N-25-A,Mo,14:40,false
-N-25-A,Tu,14:40,false
-N-25-A,We,14:40,false
-N-25-A,Th,14:40,false
-N-25-A,Fr,14:40,false
-N-25-A,Sa,14:40,false
-N-25-A,Su,14:40,false
-N-25-A,Mo,15:00,false
-N-25-A,Tu,15:00,false
-N-25-A,We,15:00,false
-N-25-A,Th,15:00,false
-N-25-A,Fr,15:00,false
-N-25-A,Sa,15:00,false
-N-25-A,Su,15:00,false
-N-25-A,Mo,15:20,false
-N-25-A,Tu,15:20,false
-N-25-A,We,15:20,false
-N-25-A,Th,15:20,false
-N-25-A,Fr,15:20,false
-N-25-A,Sa,15:20,false
-N-25-A,Su,15:20,false
-N-25-A,Mo,15:40,false
-N-25-A,Tu,15:40,false
-N-25-A,We,15:40,false
-N-25-A,Th,15:40,false
-N-25-A,Fr,15:40,false
-N-25-A,Sa,15:40,false
-N-25-A,Su,15:40,false
-N-25-B,Mo,08:00,false
-N-25-B,Tu,08:00,true
-N-25-B,We,08:00,true
-N-25-B,Th,08:00,true
-N-25-B,Fr,08:00,true
-N-25-B,Sa,08:00,false
-N-25-B,Su,08:00,false
-N-25-B,Mo,08:20,false
-N-25-B,Tu,08:20,true
-N-25-B,We,08:20,true
-N-25-B,Th,08:20,true
-N-25-B,Fr,08:20,true
-N-25-B,Sa,08:20,false
-N-25-B,Su,08:20,false
-N-25-B,Mo,08:40,false
-N-25-B,Tu,08:40,true
-N-25-B,We,08:40,true
-N-25-B,Th,08:40,true
-N-25-B,Fr,08:40,true
-N-25-B,Sa,08:40,false
-N-25-B,Su,08:40,false
-N-25-B,Mo,09:00,true
-N-25-B,Tu,09:00,true
-N-25-B,We,09:00,true
-N-25-B,Th,09:00,true
-N-25-B,Fr,09:00,true
-N-25-B,Sa,09:00,false
-N-25-B,Su,09:00,false
-N-25-B,Mo,09:20,true
-N-25-B,Tu,09:20,true
-N-25-B,We,09:20,true
-N-25-B,Th,09:20,true
-N-25-B,Fr,09:20,true
-N-25-B,Sa,09:20,false
-N-25-B,Su,09:20,false
-N-25-B,Mo,09:40,true
-N-25-B,Tu,09:40,true
-N-25-B,We,09:40,true
-N-25-B,Th,09:40,true
-N-25-B,Fr,09:40,true
-N-25-B,Sa,09:40,false
-N-25-B,Su,09:40,false
-N-25-B,Mo,10:00,false
-N-25-B,Tu,10:00,true
-N-25-B,We,10:00,true
-N-25-B,Th,10:00,true
-N-25-B,Fr,10:00,true
-N-25-B,Sa,10:00,true
-N-25-B,Su,10:00,false
-N-25-B,Mo,10:20,true
-N-25-B,Tu,10:20,true
-N-25-B,We,10:20,true
-N-25-B,Th,10:20,true
-N-25-B,Fr,10:20,true
-N-25-B,Sa,10:20,true
-N-25-B,Su,10:20,false
-N-25-B,Mo,10:40,true
-N-25-B,Tu,10:40,true
-N-25-B,We,10:40,true
-N-25-B,Th,10:40,true
-N-25-B,Fr,10:40,true
-N-25-B,Sa,10:40,true
-N-25-B,Su,10:40,false
-N-25-B,Mo,11:00,true
-N-25-B,Tu,11:00,true
-N-25-B,We,11:00,true
-N-25-B,Th,11:00,true
-N-25-B,Fr,11:00,true
-N-25-B,Sa,11:00,true
-N-25-B,Su,11:00,false
-N-25-B,Mo,11:20,true
-N-25-B,Tu,11:20,true
-N-25-B,We,11:20,true
-N-25-B,Th,11:20,true
-N-25-B,Fr,11:20,true
-N-25-B,Sa,11:20,true
-N-25-B,Su,11:20,false
-N-25-B,Mo,11:40,true
-N-25-B,Tu,11:40,true
-N-25-B,We,11:40,true
-N-25-B,Th,11:40,true
-N-25-B,Fr,11:40,true
-N-25-B,Sa,11:40,true
-N-25-B,Su,11:40,false
-N-25-B,Mo,12:00,true
-N-25-B,Tu,12:00,true
-N-25-B,We,12:00,true
-N-25-B,Th,12:00,true
-N-25-B,Fr,12:00,true
-N-25-B,Sa,12:00,true
-N-25-B,Su,12:00,false
-N-25-B,Mo,12:20,true
-N-25-B,Tu,12:20,false
-N-25-B,We,12:20,true
-N-25-B,Th,12:20,false
-N-25-B,Fr,12:20,true
-N-25-B,Sa,12:20,true
-N-25-B,Su,12:20,false
-N-25-B,Mo,12:40,true
-N-25-B,Tu,12:40,true
-N-25-B,We,12:40,true
-N-25-B,Th,12:40,true
-N-25-B,Fr,12:40,true
-N-25-B,Sa,12:40,true
-N-25-B,Su,12:40,false
-N-25-B,Mo,13:00,true
-N-25-B,Tu,13:00,true
-N-25-B,We,13:00,true
-N-25-B,Th,13:00,true
-N-25-B,Fr,13:00,false
-N-25-B,Sa,13:00,false
-N-25-B,Su,13:00,false
-N-25-B,Mo,13:20,true
-N-25-B,Tu,13:20,true
-N-25-B,We,13:20,false
-N-25-B,Th,13:20,true
-N-25-B,Fr,13:20,false
-N-25-B,Sa,13:20,false
-N-25-B,Su,13:20,false
-N-25-B,Mo,13:40,true
-N-25-B,Tu,13:40,true
-N-25-B,We,13:40,false
-N-25-B,Th,13:40,true
-N-25-B,Fr,13:40,false
-N-25-B,Sa,13:40,false
-N-25-B,Su,13:40,false
-N-25-B,Mo,14:00,false
-N-25-B,Tu,14:00,false
-N-25-B,We,14:00,false
-N-25-B,Th,14:00,false
-N-25-B,Fr,14:00,false
-N-25-B,Sa,14:00,false
-N-25-B,Su,14:00,false
-N-25-B,Mo,14:20,false
-N-25-B,Tu,14:20,false
-N-25-B,We,14:20,false
-N-25-B,Th,14:20,false
-N-25-B,Fr,14:20,false
-N-25-B,Sa,14:20,false
-N-25-B,Su,14:20,false
-N-25-B,Mo,14:40,false
-N-25-B,Tu,14:40,false
-N-25-B,We,14:40,false
-N-25-B,Th,14:40,false
-N-25-B,Fr,14:40,false
-N-25-B,Sa,14:40,false
-N-25-B,Su,14:40,false
-N-25-B,Mo,15:00,false
-N-25-B,Tu,15:00,false
-N-25-B,We,15:00,false
-N-25-B,Th,15:00,false
-N-25-B,Fr,15:00,false
-N-25-B,Sa,15:00,false
-N-25-B,Su,15:00,false
-N-25-B,Mo,15:20,false
-N-25-B,Tu,15:20,false
-N-25-B,We,15:20,false
-N-25-B,Th,15:20,false
-N-25-B,Fr,15:20,false
-N-25-B,Sa,15:20,false
-N-25-B,Su,15:20,false
-N-25-B,Mo,15:40,false
-N-25-B,Tu,15:40,false
-N-25-B,We,15:40,false
-N-25-B,Th,15:40,false
-N-25-B,Fr,15:40,false
-N-25-B,Sa,15:40,false
-N-25-B,Su,15:40,false
+N-25,Mo,08:00,true
+N-25,Tu,08:00,true
+N-25,We,08:00,true
+N-25,Th,08:00,true
+N-25,Fr,08:00,true
+N-25,Sa,08:00,true
+N-25,Su,08:00,false
+N-25,Mo,08:20,true
+N-25,Tu,08:20,true
+N-25,We,08:20,true
+N-25,Th,08:20,true
+N-25,Fr,08:20,true
+N-25,Sa,08:20,true
+N-25,Su,08:20,false
+N-25,Mo,08:40,true
+N-25,Tu,08:40,true
+N-25,We,08:40,true
+N-25,Th,08:40,true
+N-25,Fr,08:40,true
+N-25,Sa,08:40,true
+N-25,Su,08:40,false
+N-25,Mo,09:00,true
+N-25,Tu,09:00,true
+N-25,We,09:00,true
+N-25,Th,09:00,true
+N-25,Fr,09:00,true
+N-25,Sa,09:00,true
+N-25,Su,09:00,false
+N-25,Mo,09:20,true
+N-25,Tu,09:20,true
+N-25,We,09:20,true
+N-25,Th,09:20,true
+N-25,Fr,09:20,true
+N-25,Sa,09:20,false
+N-25,Su,09:20,false
+N-25,Mo,09:40,true
+N-25,Tu,09:40,true
+N-25,We,09:40,true
+N-25,Th,09:40,true
+N-25,Fr,09:40,true
+N-25,Sa,09:40,true
+N-25,Su,09:40,false
+N-25,Mo,10:00,true
+N-25,Tu,10:00,true
+N-25,We,10:00,true
+N-25,Th,10:00,true
+N-25,Fr,10:00,true
+N-25,Sa,10:00,true
+N-25,Su,10:00,false
+N-25,Mo,10:20,true
+N-25,Tu,10:20,true
+N-25,We,10:20,true
+N-25,Th,10:20,true
+N-25,Fr,10:20,true
+N-25,Sa,10:20,true
+N-25,Su,10:20,false
+N-25,Mo,10:40,true
+N-25,Tu,10:40,true
+N-25,We,10:40,true
+N-25,Th,10:40,true
+N-25,Fr,10:40,true
+N-25,Sa,10:40,true
+N-25,Su,10:40,false
+N-25,Mo,11:00,true
+N-25,Tu,11:00,true
+N-25,We,11:00,true
+N-25,Th,11:00,true
+N-25,Fr,11:00,true
+N-25,Sa,11:00,true
+N-25,Su,11:00,false
+N-25,Mo,11:20,true
+N-25,Tu,11:20,true
+N-25,We,11:20,true
+N-25,Th,11:20,true
+N-25,Fr,11:20,true
+N-25,Sa,11:20,true
+N-25,Su,11:20,false
+N-25,Mo,11:40,true
+N-25,Tu,11:40,true
+N-25,We,11:40,true
+N-25,Th,11:40,true
+N-25,Fr,11:40,true
+N-25,Sa,11:40,true
+N-25,Su,11:40,false
+N-25,Mo,12:00,true
+N-25,Tu,12:00,true
+N-25,We,12:00,true
+N-25,Th,12:00,true
+N-25,Fr,12:00,true
+N-25,Sa,12:00,true
+N-25,Su,12:00,false
+N-25,Mo,12:20,true
+N-25,Tu,12:20,true
+N-25,We,12:20,true
+N-25,Th,12:20,true
+N-25,Fr,12:20,true
+N-25,Sa,12:20,true
+N-25,Su,12:20,false
+N-25,Mo,12:40,true
+N-25,Tu,12:40,true
+N-25,We,12:40,true
+N-25,Th,12:40,true
+N-25,Fr,12:40,true
+N-25,Sa,12:40,true
+N-25,Su,12:40,false
+N-25,Mo,13:00,true
+N-25,Tu,13:00,true
+N-25,We,13:00,true
+N-25,Th,13:00,true
+N-25,Fr,13:00,false
+N-25,Sa,13:00,true
+N-25,Su,13:00,false
+N-25,Mo,13:20,true
+N-25,Tu,13:20,true
+N-25,We,13:20,false
+N-25,Th,13:20,true
+N-25,Fr,13:20,false
+N-25,Sa,13:20,true
+N-25,Su,13:20,false
+N-25,Mo,13:40,true
+N-25,Tu,13:40,true
+N-25,We,13:40,false
+N-25,Th,13:40,true
+N-25,Fr,13:40,false
+N-25,Sa,13:40,true
+N-25,Su,13:40,false
+N-25,Mo,14:00,false
+N-25,Tu,14:00,false
+N-25,We,14:00,false
+N-25,Th,14:00,false
+N-25,Fr,14:00,false
+N-25,Sa,14:00,false
+N-25,Su,14:00,false
+N-25,Mo,14:20,false
+N-25,Tu,14:20,false
+N-25,We,14:20,false
+N-25,Th,14:20,false
+N-25,Fr,14:20,false
+N-25,Sa,14:20,false
+N-25,Su,14:20,false
+N-25,Mo,14:40,false
+N-25,Tu,14:40,false
+N-25,We,14:40,false
+N-25,Th,14:40,false
+N-25,Fr,14:40,false
+N-25,Sa,14:40,false
+N-25,Su,14:40,false
+N-25,Mo,15:00,false
+N-25,Tu,15:00,false
+N-25,We,15:00,false
+N-25,Th,15:00,false
+N-25,Fr,15:00,false
+N-25,Sa,15:00,false
+N-25,Su,15:00,false
+N-25,Mo,15:20,false
+N-25,Tu,15:20,false
+N-25,We,15:20,false
+N-25,Th,15:20,false
+N-25,Fr,15:20,false
+N-25,Sa,15:20,false
+N-25,Su,15:20,false
+N-25,Mo,15:40,false
+N-25,Tu,15:40,false
+N-25,We,15:40,false
+N-25,Th,15:40,false
+N-25,Fr,15:40,false
+N-25,Sa,15:40,false
+N-25,Su,15:40,false
 O-1,Mo,08:00,false
 O-1,Tu,08:00,true
 O-1,We,08:00,true
@@ -16171,42 +15835,42 @@ Power Trans Dist Lab (P-3),Sa,09:40,false
 Power Trans Dist Lab (P-3),Su,09:40,false
 Power Trans Dist Lab (P-3),Mo,10:00,false
 Power Trans Dist Lab (P-3),Tu,10:00,false
-Power Trans Dist Lab (P-3),We,10:00,false
+Power Trans Dist Lab (P-3),We,10:00,true
 Power Trans Dist Lab (P-3),Th,10:00,false
 Power Trans Dist Lab (P-3),Fr,10:00,true
 Power Trans Dist Lab (P-3),Sa,10:00,false
 Power Trans Dist Lab (P-3),Su,10:00,false
 Power Trans Dist Lab (P-3),Mo,10:20,false
 Power Trans Dist Lab (P-3),Tu,10:20,false
-Power Trans Dist Lab (P-3),We,10:20,false
+Power Trans Dist Lab (P-3),We,10:20,true
 Power Trans Dist Lab (P-3),Th,10:20,false
 Power Trans Dist Lab (P-3),Fr,10:20,true
 Power Trans Dist Lab (P-3),Sa,10:20,false
 Power Trans Dist Lab (P-3),Su,10:20,false
 Power Trans Dist Lab (P-3),Mo,10:40,false
 Power Trans Dist Lab (P-3),Tu,10:40,false
-Power Trans Dist Lab (P-3),We,10:40,false
+Power Trans Dist Lab (P-3),We,10:40,true
 Power Trans Dist Lab (P-3),Th,10:40,false
 Power Trans Dist Lab (P-3),Fr,10:40,true
 Power Trans Dist Lab (P-3),Sa,10:40,false
 Power Trans Dist Lab (P-3),Su,10:40,false
 Power Trans Dist Lab (P-3),Mo,11:00,false
 Power Trans Dist Lab (P-3),Tu,11:00,false
-Power Trans Dist Lab (P-3),We,11:00,false
+Power Trans Dist Lab (P-3),We,11:00,true
 Power Trans Dist Lab (P-3),Th,11:00,true
 Power Trans Dist Lab (P-3),Fr,11:00,false
 Power Trans Dist Lab (P-3),Sa,11:00,false
 Power Trans Dist Lab (P-3),Su,11:00,false
 Power Trans Dist Lab (P-3),Mo,11:20,false
 Power Trans Dist Lab (P-3),Tu,11:20,false
-Power Trans Dist Lab (P-3),We,11:20,false
+Power Trans Dist Lab (P-3),We,11:20,true
 Power Trans Dist Lab (P-3),Th,11:20,true
 Power Trans Dist Lab (P-3),Fr,11:20,false
 Power Trans Dist Lab (P-3),Sa,11:20,false
 Power Trans Dist Lab (P-3),Su,11:20,false
 Power Trans Dist Lab (P-3),Mo,11:40,false
 Power Trans Dist Lab (P-3),Tu,11:40,false
-Power Trans Dist Lab (P-3),We,11:40,false
+Power Trans Dist Lab (P-3),We,11:40,true
 Power Trans Dist Lab (P-3),Th,11:40,true
 Power Trans Dist Lab (P-3),Fr,11:40,false
 Power Trans Dist Lab (P-3),Sa,11:40,false
@@ -16487,42 +16151,42 @@ RTES / DSD / CA (A-13),Su,08:40,false
 RTES / DSD / CA (A-13),Mo,09:00,false
 RTES / DSD / CA (A-13),Tu,09:00,false
 RTES / DSD / CA (A-13),We,09:00,false
-RTES / DSD / CA (A-13),Th,09:00,false
+RTES / DSD / CA (A-13),Th,09:00,true
 RTES / DSD / CA (A-13),Fr,09:00,false
 RTES / DSD / CA (A-13),Sa,09:00,false
 RTES / DSD / CA (A-13),Su,09:00,false
 RTES / DSD / CA (A-13),Mo,09:20,false
 RTES / DSD / CA (A-13),Tu,09:20,false
 RTES / DSD / CA (A-13),We,09:20,false
-RTES / DSD / CA (A-13),Th,09:20,false
+RTES / DSD / CA (A-13),Th,09:20,true
 RTES / DSD / CA (A-13),Fr,09:20,false
 RTES / DSD / CA (A-13),Sa,09:20,true
 RTES / DSD / CA (A-13),Su,09:20,false
 RTES / DSD / CA (A-13),Mo,09:40,false
 RTES / DSD / CA (A-13),Tu,09:40,false
 RTES / DSD / CA (A-13),We,09:40,false
-RTES / DSD / CA (A-13),Th,09:40,false
+RTES / DSD / CA (A-13),Th,09:40,true
 RTES / DSD / CA (A-13),Fr,09:40,false
 RTES / DSD / CA (A-13),Sa,09:40,true
 RTES / DSD / CA (A-13),Su,09:40,false
 RTES / DSD / CA (A-13),Mo,10:00,false
 RTES / DSD / CA (A-13),Tu,10:00,false
 RTES / DSD / CA (A-13),We,10:00,true
-RTES / DSD / CA (A-13),Th,10:00,false
+RTES / DSD / CA (A-13),Th,10:00,true
 RTES / DSD / CA (A-13),Fr,10:00,false
 RTES / DSD / CA (A-13),Sa,10:00,true
 RTES / DSD / CA (A-13),Su,10:00,false
 RTES / DSD / CA (A-13),Mo,10:20,false
 RTES / DSD / CA (A-13),Tu,10:20,false
 RTES / DSD / CA (A-13),We,10:20,true
-RTES / DSD / CA (A-13),Th,10:20,false
+RTES / DSD / CA (A-13),Th,10:20,true
 RTES / DSD / CA (A-13),Fr,10:20,false
 RTES / DSD / CA (A-13),Sa,10:20,true
 RTES / DSD / CA (A-13),Su,10:20,false
 RTES / DSD / CA (A-13),Mo,10:40,false
 RTES / DSD / CA (A-13),Tu,10:40,false
 RTES / DSD / CA (A-13),We,10:40,true
-RTES / DSD / CA (A-13),Th,10:40,false
+RTES / DSD / CA (A-13),Th,10:40,true
 RTES / DSD / CA (A-13),Fr,10:40,false
 RTES / DSD / CA (A-13),Sa,10:40,true
 RTES / DSD / CA (A-13),Su,10:40,false
@@ -16592,42 +16256,42 @@ RTES / DSD / CA (A-13),Su,13:40,false
 RTES / DSD / CA (A-13),Mo,14:00,false
 RTES / DSD / CA (A-13),Tu,14:00,false
 RTES / DSD / CA (A-13),We,14:00,false
-RTES / DSD / CA (A-13),Th,14:00,false
+RTES / DSD / CA (A-13),Th,14:00,true
 RTES / DSD / CA (A-13),Fr,14:00,false
 RTES / DSD / CA (A-13),Sa,14:00,false
 RTES / DSD / CA (A-13),Su,14:00,false
 RTES / DSD / CA (A-13),Mo,14:20,false
 RTES / DSD / CA (A-13),Tu,14:20,false
 RTES / DSD / CA (A-13),We,14:20,false
-RTES / DSD / CA (A-13),Th,14:20,false
+RTES / DSD / CA (A-13),Th,14:20,true
 RTES / DSD / CA (A-13),Fr,14:20,false
 RTES / DSD / CA (A-13),Sa,14:20,false
 RTES / DSD / CA (A-13),Su,14:20,false
 RTES / DSD / CA (A-13),Mo,14:40,false
 RTES / DSD / CA (A-13),Tu,14:40,false
 RTES / DSD / CA (A-13),We,14:40,false
-RTES / DSD / CA (A-13),Th,14:40,false
+RTES / DSD / CA (A-13),Th,14:40,true
 RTES / DSD / CA (A-13),Fr,14:40,false
 RTES / DSD / CA (A-13),Sa,14:40,false
 RTES / DSD / CA (A-13),Su,14:40,false
 RTES / DSD / CA (A-13),Mo,15:00,false
 RTES / DSD / CA (A-13),Tu,15:00,false
 RTES / DSD / CA (A-13),We,15:00,false
-RTES / DSD / CA (A-13),Th,15:00,false
+RTES / DSD / CA (A-13),Th,15:00,true
 RTES / DSD / CA (A-13),Fr,15:00,false
 RTES / DSD / CA (A-13),Sa,15:00,false
 RTES / DSD / CA (A-13),Su,15:00,false
 RTES / DSD / CA (A-13),Mo,15:20,false
 RTES / DSD / CA (A-13),Tu,15:20,false
 RTES / DSD / CA (A-13),We,15:20,false
-RTES / DSD / CA (A-13),Th,15:20,false
+RTES / DSD / CA (A-13),Th,15:20,true
 RTES / DSD / CA (A-13),Fr,15:20,false
 RTES / DSD / CA (A-13),Sa,15:20,false
 RTES / DSD / CA (A-13),Su,15:20,false
 RTES / DSD / CA (A-13),Mo,15:40,false
 RTES / DSD / CA (A-13),Tu,15:40,false
 RTES / DSD / CA (A-13),We,15:40,false
-RTES / DSD / CA (A-13),Th,15:40,false
+RTES / DSD / CA (A-13),Th,15:40,true
 RTES / DSD / CA (A-13),Fr,15:40,false
 RTES / DSD / CA (A-13),Sa,15:40,false
 RTES / DSD / CA (A-13),Su,15:40,false
@@ -16759,42 +16423,42 @@ SE Lab-A (C-18),Sa,13:40,true
 SE Lab-A (C-18),Su,13:40,false
 SE Lab-A (C-18),Mo,14:00,false
 SE Lab-A (C-18),Tu,14:00,false
-SE Lab-A (C-18),We,14:00,false
+SE Lab-A (C-18),We,14:00,true
 SE Lab-A (C-18),Th,14:00,false
 SE Lab-A (C-18),Fr,14:00,false
 SE Lab-A (C-18),Sa,14:00,false
 SE Lab-A (C-18),Su,14:00,false
 SE Lab-A (C-18),Mo,14:20,false
 SE Lab-A (C-18),Tu,14:20,false
-SE Lab-A (C-18),We,14:20,false
+SE Lab-A (C-18),We,14:20,true
 SE Lab-A (C-18),Th,14:20,false
 SE Lab-A (C-18),Fr,14:20,false
 SE Lab-A (C-18),Sa,14:20,false
 SE Lab-A (C-18),Su,14:20,false
 SE Lab-A (C-18),Mo,14:40,false
 SE Lab-A (C-18),Tu,14:40,false
-SE Lab-A (C-18),We,14:40,false
+SE Lab-A (C-18),We,14:40,true
 SE Lab-A (C-18),Th,14:40,false
 SE Lab-A (C-18),Fr,14:40,false
 SE Lab-A (C-18),Sa,14:40,false
 SE Lab-A (C-18),Su,14:40,false
 SE Lab-A (C-18),Mo,15:00,false
 SE Lab-A (C-18),Tu,15:00,false
-SE Lab-A (C-18),We,15:00,false
+SE Lab-A (C-18),We,15:00,true
 SE Lab-A (C-18),Th,15:00,false
 SE Lab-A (C-18),Fr,15:00,false
 SE Lab-A (C-18),Sa,15:00,false
 SE Lab-A (C-18),Su,15:00,false
 SE Lab-A (C-18),Mo,15:20,false
 SE Lab-A (C-18),Tu,15:20,false
-SE Lab-A (C-18),We,15:20,false
+SE Lab-A (C-18),We,15:20,true
 SE Lab-A (C-18),Th,15:20,false
 SE Lab-A (C-18),Fr,15:20,false
 SE Lab-A (C-18),Sa,15:20,false
 SE Lab-A (C-18),Su,15:20,false
 SE Lab-A (C-18),Mo,15:40,false
 SE Lab-A (C-18),Tu,15:40,false
-SE Lab-A (C-18),We,15:40,false
+SE Lab-A (C-18),We,15:40,true
 SE Lab-A (C-18),Th,15:40,false
 SE Lab-A (C-18),Fr,15:40,false
 SE Lab-A (C-18),Sa,15:40,false
@@ -17975,3 +17639,171 @@ Thermodynamics Lab,Th,15:40,true
 Thermodynamics Lab,Fr,15:40,true
 Thermodynamics Lab,Sa,15:40,false
 Thermodynamics Lab,Su,15:40,false
+VLSI / DIP Lab (A-16),Mo,08:00,false
+VLSI / DIP Lab (A-16),Tu,08:00,false
+VLSI / DIP Lab (A-16),We,08:00,false
+VLSI / DIP Lab (A-16),Th,08:00,false
+VLSI / DIP Lab (A-16),Fr,08:00,false
+VLSI / DIP Lab (A-16),Sa,08:00,false
+VLSI / DIP Lab (A-16),Su,08:00,false
+VLSI / DIP Lab (A-16),Mo,08:20,false
+VLSI / DIP Lab (A-16),Tu,08:20,false
+VLSI / DIP Lab (A-16),We,08:20,false
+VLSI / DIP Lab (A-16),Th,08:20,false
+VLSI / DIP Lab (A-16),Fr,08:20,false
+VLSI / DIP Lab (A-16),Sa,08:20,false
+VLSI / DIP Lab (A-16),Su,08:20,false
+VLSI / DIP Lab (A-16),Mo,08:40,false
+VLSI / DIP Lab (A-16),Tu,08:40,false
+VLSI / DIP Lab (A-16),We,08:40,false
+VLSI / DIP Lab (A-16),Th,08:40,false
+VLSI / DIP Lab (A-16),Fr,08:40,false
+VLSI / DIP Lab (A-16),Sa,08:40,false
+VLSI / DIP Lab (A-16),Su,08:40,false
+VLSI / DIP Lab (A-16),Mo,09:00,false
+VLSI / DIP Lab (A-16),Tu,09:00,false
+VLSI / DIP Lab (A-16),We,09:00,false
+VLSI / DIP Lab (A-16),Th,09:00,false
+VLSI / DIP Lab (A-16),Fr,09:00,false
+VLSI / DIP Lab (A-16),Sa,09:00,false
+VLSI / DIP Lab (A-16),Su,09:00,false
+VLSI / DIP Lab (A-16),Mo,09:20,false
+VLSI / DIP Lab (A-16),Tu,09:20,false
+VLSI / DIP Lab (A-16),We,09:20,false
+VLSI / DIP Lab (A-16),Th,09:20,false
+VLSI / DIP Lab (A-16),Fr,09:20,false
+VLSI / DIP Lab (A-16),Sa,09:20,false
+VLSI / DIP Lab (A-16),Su,09:20,false
+VLSI / DIP Lab (A-16),Mo,09:40,false
+VLSI / DIP Lab (A-16),Tu,09:40,false
+VLSI / DIP Lab (A-16),We,09:40,false
+VLSI / DIP Lab (A-16),Th,09:40,false
+VLSI / DIP Lab (A-16),Fr,09:40,false
+VLSI / DIP Lab (A-16),Sa,09:40,false
+VLSI / DIP Lab (A-16),Su,09:40,false
+VLSI / DIP Lab (A-16),Mo,10:00,true
+VLSI / DIP Lab (A-16),Tu,10:00,false
+VLSI / DIP Lab (A-16),We,10:00,false
+VLSI / DIP Lab (A-16),Th,10:00,false
+VLSI / DIP Lab (A-16),Fr,10:00,false
+VLSI / DIP Lab (A-16),Sa,10:00,false
+VLSI / DIP Lab (A-16),Su,10:00,false
+VLSI / DIP Lab (A-16),Mo,10:20,true
+VLSI / DIP Lab (A-16),Tu,10:20,false
+VLSI / DIP Lab (A-16),We,10:20,false
+VLSI / DIP Lab (A-16),Th,10:20,false
+VLSI / DIP Lab (A-16),Fr,10:20,false
+VLSI / DIP Lab (A-16),Sa,10:20,false
+VLSI / DIP Lab (A-16),Su,10:20,false
+VLSI / DIP Lab (A-16),Mo,10:40,true
+VLSI / DIP Lab (A-16),Tu,10:40,false
+VLSI / DIP Lab (A-16),We,10:40,false
+VLSI / DIP Lab (A-16),Th,10:40,false
+VLSI / DIP Lab (A-16),Fr,10:40,false
+VLSI / DIP Lab (A-16),Sa,10:40,false
+VLSI / DIP Lab (A-16),Su,10:40,false
+VLSI / DIP Lab (A-16),Mo,11:00,true
+VLSI / DIP Lab (A-16),Tu,11:00,false
+VLSI / DIP Lab (A-16),We,11:00,false
+VLSI / DIP Lab (A-16),Th,11:00,false
+VLSI / DIP Lab (A-16),Fr,11:00,false
+VLSI / DIP Lab (A-16),Sa,11:00,false
+VLSI / DIP Lab (A-16),Su,11:00,false
+VLSI / DIP Lab (A-16),Mo,11:20,true
+VLSI / DIP Lab (A-16),Tu,11:20,false
+VLSI / DIP Lab (A-16),We,11:20,false
+VLSI / DIP Lab (A-16),Th,11:20,false
+VLSI / DIP Lab (A-16),Fr,11:20,false
+VLSI / DIP Lab (A-16),Sa,11:20,false
+VLSI / DIP Lab (A-16),Su,11:20,false
+VLSI / DIP Lab (A-16),Mo,11:40,true
+VLSI / DIP Lab (A-16),Tu,11:40,false
+VLSI / DIP Lab (A-16),We,11:40,false
+VLSI / DIP Lab (A-16),Th,11:40,false
+VLSI / DIP Lab (A-16),Fr,11:40,false
+VLSI / DIP Lab (A-16),Sa,11:40,false
+VLSI / DIP Lab (A-16),Su,11:40,false
+VLSI / DIP Lab (A-16),Mo,12:00,false
+VLSI / DIP Lab (A-16),Tu,12:00,false
+VLSI / DIP Lab (A-16),We,12:00,false
+VLSI / DIP Lab (A-16),Th,12:00,true
+VLSI / DIP Lab (A-16),Fr,12:00,false
+VLSI / DIP Lab (A-16),Sa,12:00,false
+VLSI / DIP Lab (A-16),Su,12:00,false
+VLSI / DIP Lab (A-16),Mo,12:20,false
+VLSI / DIP Lab (A-16),Tu,12:20,false
+VLSI / DIP Lab (A-16),We,12:20,false
+VLSI / DIP Lab (A-16),Th,12:20,true
+VLSI / DIP Lab (A-16),Fr,12:20,false
+VLSI / DIP Lab (A-16),Sa,12:20,false
+VLSI / DIP Lab (A-16),Su,12:20,false
+VLSI / DIP Lab (A-16),Mo,12:40,false
+VLSI / DIP Lab (A-16),Tu,12:40,false
+VLSI / DIP Lab (A-16),We,12:40,false
+VLSI / DIP Lab (A-16),Th,12:40,true
+VLSI / DIP Lab (A-16),Fr,12:40,false
+VLSI / DIP Lab (A-16),Sa,12:40,false
+VLSI / DIP Lab (A-16),Su,12:40,false
+VLSI / DIP Lab (A-16),Mo,13:00,false
+VLSI / DIP Lab (A-16),Tu,13:00,false
+VLSI / DIP Lab (A-16),We,13:00,false
+VLSI / DIP Lab (A-16),Th,13:00,true
+VLSI / DIP Lab (A-16),Fr,13:00,false
+VLSI / DIP Lab (A-16),Sa,13:00,false
+VLSI / DIP Lab (A-16),Su,13:00,false
+VLSI / DIP Lab (A-16),Mo,13:20,false
+VLSI / DIP Lab (A-16),Tu,13:20,false
+VLSI / DIP Lab (A-16),We,13:20,false
+VLSI / DIP Lab (A-16),Th,13:20,true
+VLSI / DIP Lab (A-16),Fr,13:20,false
+VLSI / DIP Lab (A-16),Sa,13:20,false
+VLSI / DIP Lab (A-16),Su,13:20,false
+VLSI / DIP Lab (A-16),Mo,13:40,false
+VLSI / DIP Lab (A-16),Tu,13:40,false
+VLSI / DIP Lab (A-16),We,13:40,false
+VLSI / DIP Lab (A-16),Th,13:40,true
+VLSI / DIP Lab (A-16),Fr,13:40,false
+VLSI / DIP Lab (A-16),Sa,13:40,false
+VLSI / DIP Lab (A-16),Su,13:40,false
+VLSI / DIP Lab (A-16),Mo,14:00,false
+VLSI / DIP Lab (A-16),Tu,14:00,false
+VLSI / DIP Lab (A-16),We,14:00,false
+VLSI / DIP Lab (A-16),Th,14:00,false
+VLSI / DIP Lab (A-16),Fr,14:00,false
+VLSI / DIP Lab (A-16),Sa,14:00,false
+VLSI / DIP Lab (A-16),Su,14:00,false
+VLSI / DIP Lab (A-16),Mo,14:20,false
+VLSI / DIP Lab (A-16),Tu,14:20,false
+VLSI / DIP Lab (A-16),We,14:20,false
+VLSI / DIP Lab (A-16),Th,14:20,false
+VLSI / DIP Lab (A-16),Fr,14:20,false
+VLSI / DIP Lab (A-16),Sa,14:20,false
+VLSI / DIP Lab (A-16),Su,14:20,false
+VLSI / DIP Lab (A-16),Mo,14:40,false
+VLSI / DIP Lab (A-16),Tu,14:40,false
+VLSI / DIP Lab (A-16),We,14:40,false
+VLSI / DIP Lab (A-16),Th,14:40,false
+VLSI / DIP Lab (A-16),Fr,14:40,false
+VLSI / DIP Lab (A-16),Sa,14:40,false
+VLSI / DIP Lab (A-16),Su,14:40,false
+VLSI / DIP Lab (A-16),Mo,15:00,false
+VLSI / DIP Lab (A-16),Tu,15:00,false
+VLSI / DIP Lab (A-16),We,15:00,false
+VLSI / DIP Lab (A-16),Th,15:00,false
+VLSI / DIP Lab (A-16),Fr,15:00,false
+VLSI / DIP Lab (A-16),Sa,15:00,false
+VLSI / DIP Lab (A-16),Su,15:00,false
+VLSI / DIP Lab (A-16),Mo,15:20,false
+VLSI / DIP Lab (A-16),Tu,15:20,false
+VLSI / DIP Lab (A-16),We,15:20,false
+VLSI / DIP Lab (A-16),Th,15:20,false
+VLSI / DIP Lab (A-16),Fr,15:20,false
+VLSI / DIP Lab (A-16),Sa,15:20,false
+VLSI / DIP Lab (A-16),Su,15:20,false
+VLSI / DIP Lab (A-16),Mo,15:40,false
+VLSI / DIP Lab (A-16),Tu,15:40,false
+VLSI / DIP Lab (A-16),We,15:40,false
+VLSI / DIP Lab (A-16),Th,15:40,false
+VLSI / DIP Lab (A-16),Fr,15:40,false
+VLSI / DIP Lab (A-16),Sa,15:40,false
+VLSI / DIP Lab (A-16),Su,15:40,false

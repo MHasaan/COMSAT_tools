@@ -207,18 +207,43 @@ def parse_time_slots(header_row):
     return slots
 
 
+# Matches a room code like "D-12", "A-117", "N-5" possibly followed by
+# continuation text that belongs to the subject (PDF rendering artefact).
+_ROOM_CODE_RE = re.compile(r'^([A-Z]-\d+)\s*(.*)', re.DOTALL)
+
+
 def parse_cell(cell_text):
     """
     Parse a cell's text into (subject, room).
+
     Last line = room, rest = subject. If only 1 line, subject only.
+
+    Handles a PDF rendering artefact where the room code is concatenated with
+    the continuation of the subject name on the same extracted line, e.g.:
+        'Advanced Financial\\nD-117Markets & Institutions'
+        → subject='Advanced Financial Markets & Institutions', room='D-117'
+        'Special Topics in Supply\\nD-15 Chain Management'
+        → subject='Special Topics in Supply Chain Management', room='D-15'
     """
     lines = [ln.strip() for ln in cell_text.strip().split("\n") if ln.strip()]
     if len(lines) == 0:
         return None, None
     if len(lines) == 1:
         return lines[0], ""
-    room = lines[-1]
-    subject = " ".join(lines[:-1])
+
+    last_line = lines[-1]
+    m = _ROOM_CODE_RE.match(last_line)
+    if m:
+        room = m.group(1)
+        leftover = m.group(2).strip()
+        subject_parts = lines[:-1]
+        if leftover:
+            subject_parts.append(leftover)
+        subject = " ".join(subject_parts)
+    else:
+        room = last_line
+        subject = " ".join(lines[:-1])
+
     return subject, room
 
 
@@ -240,94 +265,125 @@ def extract_section_name(page_text):
 
 def extract_page_entries(page, page_index):
     """
-    Extract all timetable entries from a single page.
+    Extract all timetable entries from a single page using cell bounding boxes.
+
+    Uses find_tables() instead of extract_table() so that multi-row (stacked)
+    day entries — where aSc Timetables renders two or more parallel classes in
+    the same day band — are detected correctly regardless of how pdfplumber
+    reconstructs the row structure.
+
     Returns list of dicts: {section, day, start_slot, end_slot, slots, time_range, subject, room}
     """
-    text = page.extract_text() or ""
-    section = extract_section_name(text)
+    page_text = page.extract_text() or ""
+    section = extract_section_name(page_text)
 
-    table = page.extract_table()
-    if not table or len(table) < 3:
+    tables = page.find_tables()
+    if not tables:
         return []
+    tbl = tables[0]
 
-    # Find header row (contains slot numbers like '1\n8:30\n9:00')
-    header_row_idx = None
-    for ri, row in enumerate(table):
-        for cell in row[1:5]:
-            if cell and re.match(r"^\d+\n", cell):
-                header_row_idx = ri
-                break
-        if header_row_idx is not None:
-            break
+    # ------------------------------------------------------------------
+    # Pass 1: classify every cell into header / day-label / content
+    # ------------------------------------------------------------------
+    header_cells = {}   # slot_num -> (x0, x1, start_t, end_t)
+    day_cells    = {}   # day_name -> (y0, y1)
+    raw_content  = []   # (x0, y0, x1, y1, text)
 
-    if header_row_idx is None:
-        return []
-
-    slots = parse_time_slots(table[header_row_idx])
-    if not slots:
-        return []
-
-    entries = []
-
-    for ri in range(header_row_idx + 1, len(table)):
-        row = table[ri]
-        day = (row[0] or "").strip()
-        if day not in DAYS:
+    for cell_bbox in tbl.cells:
+        x0, y0, x1, y1 = cell_bbox
+        crop = page.within_bbox(cell_bbox)
+        cell_text = (crop.extract_text() or "").strip()
+        if not cell_text:
             continue
 
-        col = 1
-        max_col = len(row)
-        while col < max_col:
-            cell = row[col]
-            if cell is None or cell == "":
-                col += 1
-                continue
+        # Slot-header cell: "N\nHH:MM\nHH:MM"
+        if re.match(r"^\d+\n", cell_text):
+            parts = cell_text.split("\n")
+            if len(parts) >= 3:
+                slot_num = int(parts[0])
+                header_cells[slot_num] = (x0, x1, parts[1].strip(), parts[2].strip())
+            continue
 
-            # Determine span by counting trailing None cells
-            start_col = col
-            end_col = col
-            k = col + 1
-            while k < max_col and row[k] is None:
-                end_col = k
-                k += 1
+        # Day-label cell
+        if cell_text in DAYS:
+            day_cells[cell_text] = (y0, y1)
+            continue
 
-            subject, room = parse_cell(cell)
-            if subject is None:
-                col = k
-                continue
+        raw_content.append((x0, y0, x1, y1, cell_text))
 
-            # Map columns to slot numbers and time range
-            if start_col in slots and end_col in slots:
-                start_slot = slots[start_col][0]
-                end_slot = slots[end_col][0]
-                start_time = slots[start_col][1]
-                end_time = slots[end_col][2]
-            elif start_col in slots:
-                start_slot = slots[start_col][0]
-                end_slot = start_slot
-                start_time = slots[start_col][1]
-                end_time = slots[start_col][2]
-            else:
-                start_slot = start_col
-                end_slot = end_col
-                start_time = "?"
-                end_time = "?"
+    if not header_cells or not day_cells:
+        return []
 
-            slot_str = str(start_slot) if start_slot == end_slot else f"{start_slot}-{end_slot}"
-            time_range = f"{start_time} - {end_time}"
+    # ------------------------------------------------------------------
+    # Pass 2: build lookup structures
+    # ------------------------------------------------------------------
+    # Sorted slot boundaries: list of (x0, x1, slot_num, start_t, end_t)
+    slot_bounds = sorted(
+        [(x0, x1, sn, st, et) for sn, (x0, x1, st, et) in header_cells.items()],
+        key=lambda t: t[0],
+    )
+    slot_area_x0 = slot_bounds[0][0]   # left edge of slot 1
+    slot_area_x1 = slot_bounds[-1][1]  # right edge of last slot
 
-            entries.append({
-                "section": section,
-                "day": day,
-                "start_slot": start_slot,
-                "end_slot": end_slot,
-                "slots": slot_str,
-                "time_range": time_range,
-                "subject": subject,
-                "room": room,
-            })
+    # Sorted day bands: list of (y0, y1, day)
+    day_bounds = sorted(
+        [(y0, y1, d) for d, (y0, y1) in day_cells.items()],
+        key=lambda t: t[0],
+    )
 
-            col = k
+    def nearest_slot_for_x0(x):
+        return min(slot_bounds, key=lambda sb: abs(sb[0] - x))[2]
+
+    def nearest_slot_for_x1(x):
+        return min(slot_bounds, key=lambda sb: abs(sb[1] - x))[2]
+
+    def day_for_cell(cy):
+        for y0, y1, d in day_bounds:
+            if y0 <= cy <= y1:
+                return d
+        return None
+
+    # ------------------------------------------------------------------
+    # Pass 3: map each content cell to (day, start_slot, end_slot)
+    # ------------------------------------------------------------------
+    entries = []
+    for x0, y0, x1, y1, cell_text in raw_content:
+        # Skip cells entirely outside the slot column area
+        if x1 <= slot_area_x0 or x0 >= slot_area_x1:
+            continue
+
+        cy = (y0 + y1) / 2
+        day = day_for_cell(cy)
+        if not day:
+            continue
+
+        start_slot = nearest_slot_for_x0(x0)
+        end_slot   = nearest_slot_for_x1(x1)
+
+        # Guard against reversed mapping (shouldn't happen but be safe)
+        if end_slot < start_slot:
+            end_slot = start_slot
+
+        start_time = header_cells[start_slot][2]
+        end_time   = header_cells[end_slot][3]
+
+        subject, room = parse_cell(cell_text)
+        if subject is None:
+            continue
+
+        slot_str   = str(start_slot) if start_slot == end_slot else f"{start_slot}-{end_slot}"
+        time_range = f"{start_time} - {end_time}"
+
+        entries.append({
+            "section":    section,
+            "day":        day,
+            "start_slot": start_slot,
+            "end_slot":   end_slot,
+            "slots":      slot_str,
+            "time_range": time_range,
+            "subject":    subject,
+            "room":       room,
+        })
 
     return entries
 
