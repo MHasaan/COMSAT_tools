@@ -1,8 +1,9 @@
 """
 Timetable PDF Scraper for aSc Timetables (CUI Lahore)
 
-Extracts class schedule data from the Spring 2026 timetable PDF.
-Each page contains one section's weekly grid with 24 half-hour slots and 7 day rows.
+Extracts class schedule data from aSc Timetables PDFs (CUI Lahore).
+Each page contains one section's weekly grid with 24 time slots and 7 day rows.
+Slot duration is auto-detected from the PDF header (e.g. 30-min or 20-min slots).
 
 Phase 1: Extract all entries (Section, Day, Slots, Time, Subject, Room)
 Phase 2: Pivot by room -> Excel workbook with one sheet per room (grid view)
@@ -15,6 +16,8 @@ Usage:
     python main.py <pdf_path> <max_pages> <output.xlsx>
 """
 
+import glob
+import csv
 import sys
 import os
 import re
@@ -37,41 +40,31 @@ from openpyxl.utils import get_column_letter
 
 DAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]
 
-# 24 half-hour slots: slot_number -> (start_time, end_time)
-SLOT_TIMES = {
-    1: ("8:30", "9:00"),
-    2: ("9:00", "9:30"),
-    3: ("9:30", "10:00"),
-    4: ("10:00", "10:30"),
-    5: ("10:30", "11:00"),
-    6: ("11:00", "11:30"),
-    7: ("11:30", "12:00"),
-    8: ("12:00", "12:30"),
-    9: ("12:30", "1:00"),
-    10: ("1:00", "1:30"),
-    11: ("1:30", "2:00"),
-    12: ("2:00", "2:30"),
-    13: ("2:30", "3:00"),
-    14: ("3:00", "3:30"),
-    15: ("3:30", "4:00"),
-    16: ("4:00", "4:30"),
-    17: ("4:30", "5:00"),
-    18: ("5:00", "5:30"),
-    19: ("5:30", "6:00"),
-    20: ("6:00", "6:30"),
-    21: ("6:30", "7:00"),
-    22: ("7:00", "7:30"),
-    23: ("7:30", "8:00"),
-    24: ("8:00", "8:30"),
-}
 
-DEFAULT_PDF = os.path.join(
-    os.path.dirname(__file__), "..", "Data", "Input", "20260215-1630-classes.pdf"
+def _natural_sort_key(text):
+    """Sort key that handles embedded numbers naturally (A-2 before A-10)."""
+    return [int(c) if c.isdigit() else c.lower() for c in re.split(r'(\d+)', text)]
+
+
+DEFAULT_INPUT_DIR = os.path.join(
+    os.path.dirname(__file__), "..", "Data", "Input", "schedule"
 )
 
 DEFAULT_OUTPUT = os.path.join(
-    os.path.dirname(__file__), "..", "Data", "Output", "MHasaan_room_timetables.xlsx"
+    os.path.dirname(__file__), "..", "Data", "Output", "schedule", "room_timetables.xlsx"
 )
+
+DEFAULT_CSV_OUTPUT = os.path.join(
+    os.path.dirname(__file__), "..", "Data", "Output", "schedule", "timetable_processed.csv"
+)
+
+
+def _get_latest_pdf(directory):
+    """Return the most recently modified PDF in *directory*, or None."""
+    pdfs = glob.glob(os.path.join(directory, "*.pdf"))
+    if not pdfs:
+        return None
+    return max(pdfs, key=os.path.getmtime)
 
 # ---------------------------------------------------------------------------
 # Styles for Excel
@@ -93,6 +86,102 @@ CONFLICT_FONT = Font(bold=True, color="FFFFFF", size=9)
 CELL_FONT = Font(size=9)
 CELL_ALIGNMENT = Alignment(wrap_text=True, vertical="center", horizontal="center")
 TITLE_FONT = Font(bold=True, size=14)
+
+# ---------------------------------------------------------------------------
+# Time-slot detection helpers
+# ---------------------------------------------------------------------------
+
+
+def _to_24h(time_str, prev_24h_hour=None):
+    """
+    Convert an ambiguous 12-hour time string (e.g. '1:00', '8:30') to 24-hour
+    HH:MM format. Uses prev_24h_hour (the previous slot's 24-hour hour) to
+    resolve AM/PM ambiguity:
+      - Hours 12 stay as 12
+      - Hours 1-7 become 13-19 (PM) when they follow an hour >= 12
+      - Hours 8-11 are AM on first encounter, PM if they follow an hour >= 15
+    """
+    parts = time_str.strip().split(":")
+    h = int(parts[0])
+    m = int(parts[1]) if len(parts) > 1 else 0
+
+    if prev_24h_hour is not None:
+        # After noon: 1-7 are always PM (13-19)
+        if 1 <= h <= 7 and prev_24h_hour >= 12:
+            h += 12
+        # 8-11 appearing after, say, 15:xx means PM (20-23)
+        elif 8 <= h <= 11 and prev_24h_hour >= 15:
+            h += 12
+    # First slot: 8-11 assumed AM, 12 stays 12, 1-7 assumed PM
+    else:
+        if 1 <= h <= 7:
+            h += 12
+
+    return f"{h:02d}:{m:02d}"
+
+
+def detect_slot_times(pdf):
+    """
+    Read the first few pages of *pdf* to discover the slot grid.
+    Returns:
+        slot_times:      dict[slot_num] -> (start_12h, end_12h)   (original strings)
+        slot_times_24h:  dict[slot_num] -> "HH:MM"                (24-hour start time)
+        num_slots:       int  (e.g. 24)
+    """
+    # Try up to the first 5 pages to find a valid header row
+    for pi in range(min(5, len(pdf.pages))):
+        table = pdf.pages[pi].extract_table()
+        if not table or len(table) < 2:
+            continue
+        for row in table:
+            # Look for the row whose cells match 'slot_num\nstart\nend'
+            for cell in row[1:5]:
+                if cell and re.match(r"^\d+\n", cell):
+                    # Found header row — parse all slots
+                    raw = {}  # slot_num -> (start_12h, end_12h)
+                    for ci in range(1, len(row)):
+                        c = row[ci]
+                        if not c:
+                            continue
+                        parts = c.strip().split("\n")
+                        if len(parts) >= 3:
+                            raw[int(parts[0])] = (parts[1].strip(), parts[2].strip())
+
+                    if not raw:
+                        continue
+
+                    num_slots = max(raw.keys())
+
+                    # Build 24-hour mapping by walking slots in order
+                    slot_times = {}      # slot -> (start_12h, end_12h)
+                    slot_times_24h = {}  # slot -> "HH:MM"
+                    prev_h = None
+                    for sn in range(1, num_slots + 1):
+                        if sn not in raw:
+                            continue
+                        s12, e12 = raw[sn]
+                        s24 = _to_24h(s12, prev_h)
+                        slot_times[sn] = (s12, e12)
+                        slot_times_24h[sn] = s24
+                        prev_h = int(s24.split(":")[0])
+
+                    # Detect slot duration for logging
+                    if len(slot_times_24h) >= 2:
+                        t1 = list(slot_times_24h.values())[0]
+                        t2 = list(slot_times_24h.values())[1]
+                        h1, m1 = map(int, t1.split(":"))
+                        h2, m2 = map(int, t2.split(":"))
+                        duration = (h2 * 60 + m2) - (h1 * 60 + m1)
+                    else:
+                        duration = 0
+
+                    print(f"Detected {num_slots} slots, {duration}-minute intervals")
+                    print(f"  Range: {slot_times_24h[1]} – {slot_times_24h[num_slots]}")
+                    return slot_times, slot_times_24h, num_slots
+
+    # Fallback: should not happen with a valid timetable PDF
+    raise RuntimeError("Could not detect time slots from PDF header")
+
 
 # ---------------------------------------------------------------------------
 # PDF Extraction Helpers
@@ -248,7 +337,7 @@ def extract_page_entries(page, page_index):
 # ---------------------------------------------------------------------------
 
 
-def build_room_grids(all_entries):
+def build_room_grids(all_entries, slot_times, num_slots):
     """
     Pivot entries by room. For each room, build a grid:
         grid[day][slot_number] = list of (section, subject)
@@ -275,14 +364,15 @@ def build_room_grids(all_entries):
     # Detect conflicts: any slot with more than 1 entry
     for room in room_grids:
         for day in DAYS:
-            for slot in range(1, 25):
+            for slot in range(1, num_slots + 1):
                 occupants = room_grids[room][day][slot]
                 if len(occupants) > 1:
+                    st = slot_times.get(slot, ("?", "?"))
                     conflicts.append({
                         "room": room,
                         "day": day,
                         "slot": slot,
-                        "time": f"{SLOT_TIMES[slot][0]} - {SLOT_TIMES[slot][1]}",
+                        "time": f"{st[0]} - {st[1]}",
                         "entries": occupants,
                     })
 
@@ -290,20 +380,51 @@ def build_room_grids(all_entries):
 
 
 # ---------------------------------------------------------------------------
+# CSV Output
+# ---------------------------------------------------------------------------
+
+
+def write_csv(room_grids, slot_times_24h, num_slots, output_path):
+    """
+    Write a flat room-availability CSV.
+    Columns: room, day, time, occupied
+    One row per (room, day, slot). Ordered by room (sorted),
+    then time slot (ascending), then day (Mo-Su) within each slot.
+    """
+    sorted_rooms = sorted(room_grids.keys(), key=_natural_sort_key)
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["room", "day", "time", "occupied"])
+
+        for room in sorted_rooms:
+            grid = room_grids[room]
+            for slot in range(1, num_slots + 1):
+                time_str = slot_times_24h[slot]
+                for day in DAYS:
+                    occupants = grid.get(day, {}).get(slot, [])
+                    occupied = "true" if occupants else "false"
+                    writer.writerow([room, day, time_str, occupied])
+
+    print(f"CSV saved: {output_path}")
+
+
+# ---------------------------------------------------------------------------
 # Excel Output
 # ---------------------------------------------------------------------------
 
 
-def write_excel(room_grids, conflicts, output_path):
+def write_excel(room_grids, conflicts, slot_times, num_slots, output_path):
     """
     Write an Excel workbook with one sheet per room.
-    Each sheet: rows = days (Mo-Su), columns = slots 1-24.
+    Each sheet: rows = days (Mo-Su), columns = slots 1-num_slots.
     Cells contain 'Section\\nSubject'. Conflicts highlighted red.
     """
     wb = Workbook()
     wb.remove(wb.active)  # remove default sheet
 
-    sorted_rooms = sorted(room_grids.keys())
+    sorted_rooms = sorted(room_grids.keys(), key=_natural_sort_key)
 
     # Build conflict lookup set
     conflict_set = set()
@@ -329,7 +450,7 @@ def write_excel(room_grids, conflicts, output_path):
         ws = wb.create_sheet(title=sheet_name)
 
         # --- Title row ---
-        ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=25)
+        ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=num_slots + 1)
         title_cell = ws.cell(row=1, column=1, value=f"Room: {room}")
         title_cell.font = TITLE_FONT
         title_cell.alignment = Alignment(horizontal="center", vertical="center")
@@ -342,9 +463,9 @@ def write_excel(room_grids, conflicts, output_path):
         day_header.border = THIN_BORDER
         day_header.alignment = Alignment(horizontal="center", vertical="center")
 
-        for slot_num in range(1, 25):
+        for slot_num in range(1, num_slots + 1):
             col = slot_num + 1
-            start_t, end_t = SLOT_TIMES[slot_num]
+            start_t, end_t = slot_times[slot_num]
             header_text = f"{slot_num}\n{start_t}\n{end_t}"
             cell = ws.cell(row=2, column=col, value=header_text)
             cell.font = HEADER_FONT
@@ -366,7 +487,7 @@ def write_excel(room_grids, conflicts, output_path):
             day_cell.alignment = Alignment(horizontal="center", vertical="center")
 
             slot = 1
-            while slot <= 24:
+            while slot <= num_slots:
                 col = slot + 1
                 occupants = grid.get(day, {}).get(slot, [])
 
@@ -381,7 +502,7 @@ def write_excel(room_grids, conflicts, output_path):
                 # Determine span: count consecutive slots with same occupants
                 span = 1
                 if not is_conflict:
-                    while slot + span <= 24:
+                    while slot + span <= num_slots:
                         next_occ = grid.get(day, {}).get(slot + span, [])
                         if next_occ == occupants:
                             span += 1
@@ -423,7 +544,7 @@ def write_excel(room_grids, conflicts, output_path):
 
         # --- Column widths ---
         ws.column_dimensions["A"].width = 6
-        for slot_num in range(1, 25):
+        for slot_num in range(1, num_slots + 1):
             col_letter = get_column_letter(slot_num + 1)
             ws.column_dimensions[col_letter].width = 14
 
@@ -470,7 +591,13 @@ def write_excel(room_grids, conflicts, output_path):
 
 
 def main():
-    pdf_path = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_PDF
+    if len(sys.argv) > 1:
+        pdf_path = sys.argv[1]
+    else:
+        pdf_path = _get_latest_pdf(DEFAULT_INPUT_DIR)
+        if pdf_path is None:
+            print(f"ERROR: No PDF files found in {os.path.abspath(DEFAULT_INPUT_DIR)}")
+            sys.exit(1)
     pdf_path = os.path.abspath(pdf_path)
 
     if not os.path.isfile(pdf_path):
@@ -490,6 +617,9 @@ def main():
     all_entries = []
 
     with pdfplumber.open(pdf_path) as pdf:
+        # Auto-detect time slot structure from the PDF header
+        slot_times, slot_times_24h, num_slots = detect_slot_times(pdf)
+
         page_count = len(pdf.pages)
         pages_to_process = page_count if max_pages == 0 else min(max_pages, page_count)
 
@@ -514,7 +644,7 @@ def main():
           f"across {len(rooms)} rooms")
 
     # Build room grids and detect conflicts
-    room_grids, conflicts = build_room_grids(all_entries)
+    room_grids, conflicts = build_room_grids(all_entries, slot_times, num_slots)
     print(f"Rooms with schedules: {len(room_grids)}")
 
     if conflicts:
@@ -530,9 +660,13 @@ def main():
     print()
 
     # Write Excel
-    write_excel(room_grids, conflicts, output_path)
+    write_excel(room_grids, conflicts, slot_times, num_slots, output_path)
 
-    print(f"\nDone! {len(all_entries)} entries -> {len(room_grids)} room sheets")
+    # Write CSV (room availability matrix)
+    csv_output_path = os.path.abspath(DEFAULT_CSV_OUTPUT)
+    write_csv(room_grids, slot_times_24h, num_slots, csv_output_path)
+
+    print(f"\nDone! {len(all_entries)} entries -> {len(room_grids)} room sheets + CSV")
 
 
 if __name__ == "__main__":
